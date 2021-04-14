@@ -55,7 +55,7 @@ function Footer() {
                 </div>
             </div>
             <div className="footer" style={{ textAlign: "center" }}>
-                <div id="copyright" >&#169;2021 goldie mohr ltd. All Rights Reserved</div>
+                <div id="copyright" >&#169;2021 Goldie Mohr Ltd. All Rights Reserved</div>
             </div>
         </>
     )
