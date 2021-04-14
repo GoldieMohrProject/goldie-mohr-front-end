@@ -50,10 +50,10 @@
   position: absolute;
   background: #3178C6;
   height: 5px;
-  width: 60px;
+  width: 50px;
   left: 50%;
   transform: translateX(-50%);
-  bottom: -30px;
+  bottom: -10px;
 }
 .tittle h4 {
   font: 400 14px "Roboto", sans-serif;
@@ -92,7 +92,9 @@
 }
 .our_achievments_area .achievments_row .completed {
   text-align: center;
-  border-right: 3px solid #fff;
+  /* border-right: 3px solid #fff; */
+  /* border-collapse: separate;
+  border-spacing: 100px 100px; */
 }
 .our_achievments_area .achievments_row .completed:last-child {
   border: 0;
@@ -128,7 +130,10 @@
 }
 .featured_works {
   background: url("https://user-images.githubusercontent.com/71358869/113165769-30281f80-9210-11eb-952d-c46e00bfe040.jpg") no-repeat fixed;
-
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   text-align: center;
   position: relative;
   z-index: 1;
@@ -269,6 +274,10 @@ color: #555555;
 padding-top: 20px;
 }
 
+/* @media (min-width: 100px) {
+
+.rightPad {padding-right:10%}
+} */
 /*--------------------------------------------------*/
 @media (max-width: 480px) {
 .hideArrow {
