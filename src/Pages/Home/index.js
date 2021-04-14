@@ -68,10 +68,10 @@ function Home() {
 
                                 <div class="tittle wow fadeInUp" >
                                     <h2>Our Achievements</h2>
-                                    <h4 style={{ padding: '5%' }}>the signature blue trucks with the golden horseshoe on the door are now quite familiar sights throughout eastern Ontario and Western Quebec.</h4>
+                                    <h4 style={{ padding: '5%', paddingTop:'15%' }}>the signature blue trucks with the golden horseshoe on the door are now quite familiar sights throughout eastern Ontario and Western Quebec.</h4>
                                 </div>
-                                <div class="achievments_row row">
-                                    <div class="col-md-3 col-sm-6 p0 completed">
+                                <div class="achievments_row row" >
+                                    <div class="col-md-4 col-sm-6 p0 completed" style={{margin:'auto', paddingLeft:'5%'}}>
                                         <i class="fa fa-check-square" aria-hidden="true"></i>
                                         <CountUp end={800} redraw={true}>
                                             {({ countUpRef, start }) => (
@@ -82,7 +82,7 @@ function Home() {
                                         </CountUp>
                                         <h6>PROJECT COMPLETED</h6>
                                     </div>
-                                    <div class="col-md-3 col-sm-6 p0 completed">
+                                    {/* <div class="col-md-3 col-sm-6 p0 completed">
                                         <i class="fa fa-home" aria-hidden="true"></i>
                                         <CountUp end={229} redraw={true}>
                                             {({ countUpRef, start }) => (
@@ -92,10 +92,10 @@ function Home() {
                                             )}
                                         </CountUp>
                                         <h6>HOUSE RENOVATIONS</h6>
-                                    </div>
-                                    <div class="col-md-3 col-sm-6 p0 completed">
+                                    </div> */}
+                                    <div class="col-md-6 col-sm-6 p0 completed rightPad">
                                         <i class="fa fa-child" aria-hidden="true"></i>
-                                        <CountUp end={100} redraw={true}>
+                                        <CountUp end={50} redraw={true}>
                                             {({ countUpRef, start }) => (
                                                 <VisibilitySensor onChange={start} delayedCall>
                                                     <span style={{ color: 'white' }} class="counter" ref={countUpRef} />
@@ -104,7 +104,7 @@ function Home() {
                                         </CountUp>
                                         <h6>WORKERS EMPLOYED</h6>
                                     </div>
-                                    <div class="col-md-3 col-sm-6 p0 completed">
+                                    {/* <div class="col-md-3 col-sm-6 p0 completed">
                                         <i class="fa fa-trophy" aria-hidden="true"></i>
                                         <CountUp end={25} redraw={true}>
                                             {({ countUpRef, start }) => (
@@ -114,7 +114,7 @@ function Home() {
                                             )}
                                         </CountUp>
                                         <h6>AWARDS WON</h6>
-                                    </div>
+                                    </div> */}
                                 </div>
                             </section>
 
@@ -148,7 +148,7 @@ function Home() {
                                     </div>
                                     <div class="media-body">
                                         <h6>Best Customer Services</h6>
-                                        <p>Our employees provide unmatched service, delivering top quality service for your business! All of our team members are committed to personal service. In keeping with this desire, we are not satisfied with our work until you are as well.</p>
+                                        <p>Our employees provide unmatched value, delivering top quality service for your business! All of our team members are committed to providing MOHR Value. In keeping with this desire, we are not satisfied with our work until you are as well.</p>
                                     </div>
                                 </div>
                                 <div class="media">
@@ -159,7 +159,7 @@ function Home() {
                                     </div>
                                     <div class="media-body">
                                         <h6 style={{ fontWeight: 'bold' }}>QUALIFIED EXPERTS</h6>
-                                        <p>You want results? Contact us today !There really is no other way. </p>
+                                        <p>Our company and our team maintain our professional designations and continuous improvement.  You want results? Contact us today! There is really no other way. </p>
                                     </div>
                                 </div>
                             </div>
@@ -173,12 +173,11 @@ function Home() {
             <section class="row featured_works " data-stellar-background-ratio="0.3" style={{ backgroundPosition: ' 50% -0.36px', marginTop: '5%', marginBottom: '0.11%' }}>
                 <div class="tittle wow fadeInUp">
                     <h2 >Safety</h2>
-                    <div style={{ paddingLeft: '10%', paddingRight: '10%', marginTop: '4%', marginBottom: "4%", textTransform: 'none', color: 'white' }}>
-                        As a member of the W.S.I.B Safety Group, Goldie Mohr Ltd. is able to reduce workplace injuries and ensure
-                        safety at all job sites. The main focus of the Goldie Mohr Ltd. safety department is to create the safest
-                        environment possible, for all stakeholders (the public, employees, sub-contractors and customers) by
-                        maintaining the policies and standards influenced by W.S.I.B. Safety Group.  Accident prevention is what
-                          Goldie Mohr Ltd. strives for through this program.</div>
+                    <div style={{ paddingLeft: '10%', paddingRight: '10%', marginTop: '5%', marginBottom: "4%", textTransform: 'none', color: 'white' }}>
+                   <strong> As a member of the W.S.I.B Excellence Program, Goldie Mohr Ltd. is able to reduceworkplace injuries and ensure safety at all job sites. The main focus of 
+                    the Goldie MohrLtd safety department is to create the safest environment possible, for all stakeholders(the public, employees, sub-contractors and customers)
+                     by maintaining the policies andstandards influenced by W.S.I.B. and IHSA.  Accident prevention is what Goldie MohrLtd. strives for through this program. 
+                      Our team is committed to achieving the OntarioCertificate or Recognition – COR.</strong> </div>
                 </div>
             </section>
 

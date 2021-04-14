@@ -438,7 +438,7 @@ function Services() {
 
         <div className="tittle wow fadeInUp">
           <h2 style={{ color: "black" }}>Our Featured Works</h2>
-          <h4 style={{ color: "black", lineHeight: "200%" }}>As our core service, Goldie Mohr Ltd has the ability to mobilize and execute large earth excavation projects with precision. Our large fleet of trucks and dedicated construction professionals will ensure the timely delivery of your site to the next trade on grade and on time. Please use the links below to have a look at some of the future projects.</h4>
+          <h4 style={{ color: "black", lineHeight: "200%", padding:'3%' }}>AS OUR CORE SERVICE, GOLDIE MOHR LTD HAS THE ABILITY TO MOBILIZE ANDEXECUTE LARGE EARTH EXCAVATION PROJECTS WITH PRECISION. OUR LARGE FLEETOF TRUCKS AND DEDICATED CONSTRUCTION PROFESSIONALS WILL ENSURE THETIMELY DELIVERY OF YOUR SITE TO THE NEXT TRADE - ON GRADE AND ON TIME.PLEASE USE THE LINKS BELOW TO HAVE A LOOK AT SOME OF THE FUTURE PROJECTS.</h4>
         </div>
         <div className="featured_gallery">
 
