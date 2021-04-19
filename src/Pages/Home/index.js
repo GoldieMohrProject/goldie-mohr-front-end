@@ -28,8 +28,10 @@ function Home() {
                 <section class="row professional_builder backgroounnd"  >
                     <div class="container">
                         <div class="row builder_all">
-                            <div class="tittle" style={{ marginBottom: '10%' }}>
+                            <div class="tittle" style={{ marginBottom: '5%' }}>
                                 <h2>About Us</h2>
+                                <h1 style={{marginTop:"5%"}}>PROVIDING MOHR VALUE </h1>
+                                <h1>SINCE 1960</h1>
                             </div>
                             <div class="col-md-3 col-sm-6 builder">
                                 <i class="fa fa-home" aria-hidden="true"></i>
