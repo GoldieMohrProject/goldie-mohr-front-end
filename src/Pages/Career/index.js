@@ -2,7 +2,7 @@ import React from 'react'
 import Job from '../../Components/Job'
 import './style.css'
 
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 
 
 function Career() {
@@ -18,12 +18,12 @@ function Career() {
                     </div> */}
                     <div className="row">
                         <p>
-                            We are often hiring list truck drivers, labourers, operators, administration, health and safety.
-                            To apply, please send a message through our <Link to="/Contact">Contact Us</Link> page.
-                           
+                            We are often hiring truck drivers, labourers, operators, administration. To apply, please send a
+                            message through our <Link to="/Contact">Contact Us</Link> page.
+
                         </p>
-                      
-                        
+
+
                     </div>
                     <div className="row">
                         <Job title="Health and Safety Coordinator" description="The Health & Safety Coordinator will play a key role in the management, sustainability, and training of industry best practices for Health and Safety with a goal to become COR certified."
