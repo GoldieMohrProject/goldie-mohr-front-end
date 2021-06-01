@@ -176,12 +176,6 @@ function Home() {
                 <div class="tittle wow fadeInUp">
                     <h2 >Safety</h2>
                     <div style={{ paddingLeft: '10%', paddingRight: '10%', marginTop: '5%', marginBottom: "4%", textTransform: 'none', color: 'white' }}>
-<<<<<<< HEAD
-                        <strong> As a member of the W.S.I.B Excellence Program, Goldie Mohr Ltd. is able to reduceworkplace injuries and ensure safety at all job sites. The main focus of
-                        the Goldie MohrLtd safety department is to create the safest environment possible, for all stakeholders(the public, employees, sub-contractors and customers)
-                        by maintaining the policies andstandards influenced by W.S.I.B. and IHSA.  Accident prevention is what Goldie MohrLtd. strives for through this program.
-                      Our team is committed to achieving the OntarioCertificate or Recognition – COR.</strong> </div>
-=======
                         <strong> As a member of the W.S.I.B Excellence Program,
                         Goldie Mohr Ltd. is able to reduce workplace
                         injuries and ensure safety at all job sites. The
@@ -196,7 +190,6 @@ function Home() {
                         through this program. Our team is committed to
                         achieving the Ontario Certificate or Recognition
                         – COR.</strong> </div>
->>>>>>> b3a2174b31728ab42810131d504ed5cf42eb2c3f
                 </div>
             </section>
 
