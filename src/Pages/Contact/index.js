@@ -50,7 +50,7 @@ class Contact extends React.Component {
                                         <a >Mail </a>
                                     </div>
                                     <div className="address">
-                                        <a >3862 Moodie Drive, Nepean, Ontario </a>
+                                        <a >3862 Moodie Drive, Ottawa, Ontario </a>
                                         <a >+1 613 838 50 42</a>
                                         <a> +1 800 267 55 13</a>
                                         <a > +1 613 838 58 08</a>
