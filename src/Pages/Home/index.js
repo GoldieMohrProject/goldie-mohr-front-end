@@ -68,10 +68,10 @@ function Home() {
 
                                 <div class="tittle wow fadeInUp" >
                                     <h2>Our Achievements</h2>
-                                    <h4 style={{ padding: '5%', paddingTop:'15%' }}>the signature blue trucks with the golden horseshoe on the door are now quite familiar sights throughout eastern Ontario and Western Quebec.</h4>
+                                    <h4 style={{ padding: '5%', paddingTop: '15%' }}>the signature blue trucks with the golden horseshoe on the door are now quite familiar sights throughout eastern Ontario and Western Quebec.</h4>
                                 </div>
                                 <div class="achievments_row row" >
-                                    <div class="col-md-4 col-sm-6 p0 completed" style={{margin:'auto', paddingLeft:'5%'}}>
+                                    <div class="col-md-4 col-sm-6 p0 completed" style={{ margin: 'auto', paddingLeft: '5%' }}>
                                         <i class="fa fa-check-square" aria-hidden="true"></i>
                                         <CountUp end={800} redraw={true}>
                                             {({ countUpRef, start }) => (
@@ -174,9 +174,9 @@ function Home() {
                 <div class="tittle wow fadeInUp">
                     <h2 >Safety</h2>
                     <div style={{ paddingLeft: '10%', paddingRight: '10%', marginTop: '5%', marginBottom: "4%", textTransform: 'none', color: 'white' }}>
-                   <strong> As a member of the W.S.I.B Excellence Program, Goldie Mohr Ltd. is able to reduceworkplace injuries and ensure safety at all job sites. The main focus of 
-                    the Goldie MohrLtd safety department is to create the safest environment possible, for all stakeholders(the public, employees, sub-contractors and customers)
-                     by maintaining the policies andstandards influenced by W.S.I.B. and IHSA.  Accident prevention is what Goldie MohrLtd. strives for through this program. 
+                        <strong> As a member of the W.S.I.B Excellence Program, Goldie Mohr Ltd. is able to reduceworkplace injuries and ensure safety at all job sites. The main focus of
+                        the Goldie MohrLtd safety department is to create the safest environment possible, for all stakeholders(the public, employees, sub-contractors and customers)
+                        by maintaining the policies andstandards influenced by W.S.I.B. and IHSA.  Accident prevention is what Goldie MohrLtd. strives for through this program.
                       Our team is committed to achieving the OntarioCertificate or Recognition – COR.</strong> </div>
                 </div>
             </section>
