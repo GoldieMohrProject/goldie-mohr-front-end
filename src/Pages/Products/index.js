@@ -16,10 +16,10 @@ function Product() {
             </div>
 
 
-            <div className="container">
+            <div className="container ">
                 <div style={{ marginBottom: "40px", marginTop: "40px" }}>
-                    <div className="row">
-                        <div className="card col-12 col-lg-5 col-xl-5 col-md-5" style={{ width: "24rem", borderTop: "5px solid #3178C6", margin: "25px", borderRadius: "0px" }}>
+                    <div className="row justify-content-center">
+                        <div className="card col-12 col-lg-5 col-xl-5 col-md-5 m-3" style={{ width: "24rem", borderTop: "5px solid #3178C6", borderRadius: "0px" }}>
                             <img style={{ marginTop: "20px" }} src={aggregates} height="300px" />
                             <div className="card-body">
                                 <h5 className="card-title" style={{ textAlign: "center", margin: "5%" }}>AGGREGATES</h5>
@@ -28,7 +28,7 @@ function Product() {
 </p>
                             </div>
                         </div>
-                        <div className="card col-12 col-lg-5 col-xl-5 col-md-5" style={{ width: "24rem", borderTop: "5px solid #3178C6", margin: "25px", borderRadius: "0px" }}>
+                        <div className="card col-12 col-lg-5 col-xl-5 col-md-5 m-3" style={{ width: "24rem", borderTop: "5px solid #3178C6", borderRadius: "0px" }}>
                             <img style={{ marginTop: "20px" }} src={topsoil} height="300px" />
                             <div className="card-body">
                                 <h5 className="card-title" style={{ textAlign: "center", margin: "5%" }}>TOPSOIL</h5>
