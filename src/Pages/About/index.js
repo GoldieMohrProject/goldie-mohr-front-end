@@ -3,18 +3,30 @@ import "./style.css"
 import React from 'react';
 import './style.css';
 import { Link } from "react-router-dom";
+import { Image } from 'antd';
 
 
 // history photos
-import history1 from '../../assets/history1.jpg'
-import history2 from '../../assets/history2.jpg'
-import history3 from '../../assets/history3.jpg'
-import history4 from '../../assets/history4.jpg'
-import history5 from '../../assets/history5.jpg'
-import history6 from '../../assets/history6.jpg'
+import history1 from '../About/history/1.jpg'
+import history2 from '../About/history/2.jpg'
+import history3 from '../About/history/3.jpg'
+import history4 from '../About/history/4.jpg'
+import history5 from '../About/history/5.jpg'
+import history6 from '../About/history/6.jpg'
+import history7 from '../About/history/7.jpg'
+import history8 from '../About/history/8.jpg'
+import history9 from '../About/history/9.jpg'
+import history10 from '../About/history/10.jpg'
+import history11 from '../About/history/11.jpg'
+import history12 from '../About/history/12.jpg'
+import history13 from '../About/history/13.jpg'
+import history14 from '../About/history/14.jpg'
+import history15 from '../About/history/15.jpg'
+import history16 from '../About/history/16.jpg'
+import history17 from '../About/history/17.jpg'
+
 
 // membership photos
-import team from '../../assets/team.jpg'
 import CAFE from '../../assets/CAFE.png'
 import Dig from '../../assets/Dig.png'
 import ISHA from '../../assets/ISHA.png'
@@ -106,14 +118,17 @@ function About() {
       <div className="history-container justify-content-center">
 
         <div className="row">
+        <div className="col-lg-2 col-md-3 col-sm-6">
+            <Image width={200} src={history1} alt="old photo" />
+            </div>
           <div className="col-lg-2 col-md-3 col-sm-6">
-            <img className="demo cursor" src={history1} style={{ width: '100%' }} alt="old photo" />
+            <Image className="demo cursor" src={history1} alt="old photo" />
           </div>
           <div className="col-lg-2 col-md-3 col-sm-6">
-            <img className="demo cursor" src={history2} style={{ width: '100%' }} alt="old photo" />
+            <Image className="demo cursor" src={history2} style={{ width: '100%' }} alt="old photo" />
           </div>
           <div className="col-lg-2 col-md-3 col-sm-6">
-            <img className="demo cursor" src={history3} style={{ width: '100%' }} alt="old photo" />
+            <Image className="demo cursor" src={history3} style={{ width: '100%' }} alt="old photo" />
           </div>
           <div className="col-lg-2 col-md-3 col-sm-6">
             <img className="demo cursor" src={history4} style={{ width: '100%' }} alt="old photo" />
@@ -124,7 +139,40 @@ function About() {
           <div className="col-lg-2 col-md-3 col-sm-6">
             <img className="demo cursor" src={history6} style={{ width: '100%' }} alt="old photo" />
           </div>
-        </div>
+          <div className="col-lg-2 col-md-3 col-sm-6">
+            <img className="demo cursor" src={history7} style={{ width: '100%' }} alt="old photo" />
+          </div>
+          <div className="col-lg-2 col-md-3 col-sm-6">
+            <img className="demo cursor" src={history8} style={{ width: '100%' }} alt="old photo" />
+          </div>
+          <div className="col-lg-2 col-md-3 col-sm-6">
+            <img className="demo cursor" src={history9} style={{ width: '100%' }} alt="old photo" />
+          </div>
+          <div className="col-lg-2 col-md-3 col-sm-6">
+            <img className="demo cursor" src={history10} style={{ width: '100%' }} alt="old photo" />
+          </div>
+          <div className="col-lg-2 col-md-3 col-sm-6">
+            <img className="demo cursor" src={history11} style={{ width: '100%' }} alt="old photo" />
+          </div>
+          <div className="col-lg-2 col-md-3 col-sm-6">
+            <img className="demo cursor" src={history12} style={{ width: '100%' }} alt="old photo" />
+          </div>
+          <div className="col-lg-2 col-md-3 col-sm-6">
+            <img className="demo cursor" src={history13} style={{ width: '100%' }} alt="old photo" />
+          </div>
+          <div className="col-lg-2 col-md-3 col-sm-6">
+            <img className="demo cursor" src={history14} style={{ width: '100%' }} alt="old photo" />
+          </div>
+          <div className="col-lg-2 col-md-3 col-sm-6">
+            <img className="demo cursor" src={history15} style={{ width: '100%' }} alt="old photo" />
+          </div>
+          <div className="col-lg-2 col-md-3 col-sm-6">
+            <img className="demo cursor" src={history16} style={{ width: '100%' }} alt="old photo" />
+          </div>
+          <div className="col-lg-2 col-md-3 col-sm-6">
+            <img className="demo cursor" src={history17} style={{ width: '100%' }} alt="old photo" />
+          </div>
+               </div>
       </div>
 
       <section>
@@ -173,21 +221,6 @@ function About() {
       <br></br>
       {/* End Community Area */}
 
-      {/* Our Team Area */}
-      <section className="our_team_area">
-        <div className="container">
-          <div className="tittle wow fadeInUp">
-
-            <div className="centering">
-              <h2>Our Team</h2>
-            </div>
-            <div className="teamstuff">
-              <p>At Goldie Mohr Limited, we believe that our people are our greatest asset!</p>
-              <img src={team} alt="team photo" className="teampic" />
-            </div>
-          </div>
-        </div>
-      </section>
 
       <section className="our_feature_area">
         <div className="container">

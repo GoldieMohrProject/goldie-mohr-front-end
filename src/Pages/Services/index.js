@@ -18,52 +18,160 @@ const construction = [
     thumbnail: 'Construction/road1.jpg',
   },
   {
-    original: 'Construction/truck.JPG',
-    thumbnail: 'Construction/truck.JPG',
+    original: 'Construction/1.jpg',
+    thumbnail: 'Construction/1.jpg',
   },
   {
-    original: 'Construction/pipe.jpg',
-    thumbnail: 'Construction/pipe.jpg',
+    original: 'Construction/2.jpg',
+    thumbnail: 'Construction/2.jpg',
   },
   {
-    original: 'Construction/pipe2.JPG',
-    thumbnail: 'Construction/pipe2.JPG',
+    original: 'Construction/3.jpg',
+    thumbnail: 'Construction/3.jpg',
   },
   {
-    original: 'Construction/pipe3.jpg',
-    thumbnail: 'Construction/pipe3.jpg',
+    original: 'Construction/4.jpg',
+    thumbnail: 'Construction/4.jpg',
   },
   {
-    original: 'Construction/ground.JPG',
-    thumbnail: 'Construction/ground.JPG',
+    original: 'Construction/5.JPG',
+    thumbnail: 'Construction/5.JPG',
   },
   {
-    original: 'Construction/gravel.jpg',
-    thumbnail: 'Construction/gravel.jpg',
+    original: 'Construction/6.jpg',
+    thumbnail: 'Construction/6.jpg',
   },
   {
-    original: 'Construction/asphalt.jpg',
-    thumbnail: 'Construction/asphalt.jpg',
+    original: 'Construction/7.JPG',
+    thumbnail: 'Construction/7.JPG',
+  },
+  {
+    original: 'Construction/8.jpg',
+    thumbnail: 'Construction/8.jpg',
+  },
+  {
+    original: 'Construction/9.jpg',
+    thumbnail: 'Construction/9.jpg',
+  },
+  {
+    original: 'Construction/9.jpg',
+    thumbnail: 'Construction/9.jpg',
+  },
+  {
+    original: 'Construction/10.jpg',
+    thumbnail: 'Construction/10.jpg',
+  },
+  {
+    original: 'Construction/11.jpg',
+    thumbnail: 'Construction/11.jpg',
+  },
+  {
+    original: 'Construction/12.jpg',
+    thumbnail: 'Construction/12.jpg',
+  },
+  {
+    original: 'Construction/13.jpg',
+    thumbnail: 'Construction/13.jpg',
+  },
+  {
+    original: 'Construction/14.jpg',
+    thumbnail: 'Construction/14.jpg',
+  },
+  {
+    original: 'Construction/15.jpg',
+    thumbnail: 'Construction/15.jpg',
+  },
+  {
+    original: 'Construction/16.jpg',
+    thumbnail: 'Construction/16.jpg',
+  },
+  {
+    original: 'Construction/17.jpg',
+    thumbnail: 'Construction/17.jpg',
+  },
+  {
+    original: 'Construction/18.jpg',
+    thumbnail: 'Construction/18.jpg',
+  },
+  {
+    original: 'Construction/19.jpg',
+    thumbnail: 'Construction/19.jpg',
   }
 ];
 
 const transportation = [
   {
-    original: 'Transportation/transportation.jpg',
-    thumbnail: 'Transportation/transportation.jpg',
+    original: 'Transportation/1.jpg',
+    thumbnail: 'Transportation/1.jpg',
   },
   {
-    original: 'Transportation/transportation-2.jpg',
-    thumbnail: 'Transportation/transportation-2.jpg',
+    original: 'Transportation/2.jpg',
+    thumbnail: 'Transportation/2.jpg',
   },
   {
-    original: 'Transportation/transportation-3.jpg',
-    thumbnail: 'Transportation/transportation-3.jpg',
+    original: 'Transportation/3.jpg',
+    thumbnail: 'Transportation/3.jpg',
   },
   {
-    original: 'Transportation/transportation4.jpg',
-    thumbnail: 'Transportation/transportation4.jpg',
+    original: 'Transportation/4.jpg',
+    thumbnail: 'Transportation/4.jpg',
   },
+  {
+    original: 'Transportation/5.jpg',
+    thumbnail: 'Transportation/5.jpg',
+  },
+  {
+    original: 'Transportation/6.jpg',
+    thumbnail: 'Transportation/6.jpg',
+  },
+  {
+    original: 'Transportation/7.jpg',
+    thumbnail: 'Transportation/7.jpg',
+  },
+  {
+    original: 'Transportation/8.jpg',
+    thumbnail: 'Transportation/8.jpg',
+  },
+  {
+    original: 'Transportation/9.jpg',
+    thumbnail: 'Transportation/9.jpg',
+  },
+  {
+    original: 'Transportation/10.jpg',
+    thumbnail: 'Transportation/10.jpg',
+  },
+  {
+    original: 'Transportation/11.jpg',
+    thumbnail: 'Transportation/11.jpg',
+  },
+  {
+    original: 'Transportation/12.jpg',
+    thumbnail: 'Transportation/12.jpg',
+  },
+  {
+    original: 'Transportation/13.jpg',
+    thumbnail: 'Transportation/13.jpg',
+  },
+  {
+    original: 'Transportation/14.jpg',
+    thumbnail: 'Transportation/14.jpg',
+  },
+  {
+    original: 'Transportation/15.jpg',
+    thumbnail: 'Transportation/15.jpg',
+  },
+  {
+    original: 'Transportation/16.jpg',
+    thumbnail: 'Transportation/16.jpg',
+  },
+  {
+    original: 'Transportation/17.jpg',
+    thumbnail: 'Transportation/17.jpg',
+  },
+  {
+    original: 'Transportation/18.jpg',
+    thumbnail: 'Transportation/18.jpg',
+  }
 
 ];
 
@@ -77,22 +185,30 @@ const services = [
     thumbnail: "Rental-Equipment/rental-2.jpg"
   },
   {
-    original: 'Transportation/transportation-2.jpg',
-    thumbnail: 'Transportation/transportation-2.jpg',
+    original: 'Rental-Equipment/rental-3.jpg',
+    thumbnail: 'Rental-Equipment/rental-3.jpg',
   },
   {
-    original: 'Transportation/transportation-3.jpg',
-    thumbnail: 'Transportation/transportation-3.jpg',
+    original: 'Rental-Equipment/rental-4.jpg',
+    thumbnail: 'Rental-Equipment/rental-4.jpg',
   }
 
 ]
 
-// const winter = [
-//   {
-//     original: 'Winter-Meintenance/winter.mp4',
-//     thumbnail: 'Winter-Meintenance/winter.mp4',
-//   }
-// ]
+const winter = [
+  {
+    original: 'winter/1.jpg',
+    thumbnail: 'winter/1.jpg',
+  },
+  {
+    original: 'winter/2.jpg',
+    thumbnail: 'winter/2.jpg',
+  },
+  {
+    original: 'winter/3.jpg',
+    thumbnail: 'winter/3.jpg',
+  }
+]
 
 
 
@@ -292,7 +408,7 @@ function Services() {
 
                   <div className="col">
 
-                    <ImageGallery autoPlay="true" items={construction} />
+                    <ImageGallery autoPlay="true" items={winter} />
 
                   </div>
 
@@ -432,68 +548,7 @@ function Services() {
 
       {/* End Building Construction Area */}
 
-      {/* Our Featured Works Area */}
-
-      <section className="featured_works_one row" data-stellar-background-ratio="0.3">
-
-        <div className="tittle wow fadeInUp">
-          <h2 style={{ color: "black" }}>Our Featured Works</h2>
-          <h4 style={{ color: "black", lineHeight: "200%", padding:'3%' }}>AS OUR CORE SERVICE, GOLDIE MOHR LTD HAS THE ABILITY TO MOBILIZE ANDEXECUTE LARGE EARTH EXCAVATION PROJECTS WITH PRECISION. OUR LARGE FLEETOF TRUCKS AND DEDICATED CONSTRUCTION PROFESSIONALS WILL ENSURE THETIMELY DELIVERY OF YOUR SITE TO THE NEXT TRADE - ON GRADE AND ON TIME.PLEASE USE THE LINKS BELOW TO HAVE A LOOK AT SOME OF THE FUTURE PROJECTS.</h4>
-        </div>
-        <div className="featured_gallery">
-
-          <div className="row" >
-            <div id="service" className="col-lg-4 col-md-6 col-xs-12 col-6 gallery_iner p0">
-              <img src="Transportation/transportation-3.jpg" alt=".." />
-              <div className="gallery_hover">
-                <h4>2021 Project</h4>
-                <a href="Transportation/transportation-3.jpg" data-lightbox="image-1">VIEW PROJECT</a>
-              </div>
-            </div>
-            <div id="service" className="col-lg-4 col-md-6 col-xs-12  col-6 gallery_iner p0">
-              <img src="Transportation/transportation-3.jpg" alt=".." />
-              <div className="gallery_hover">
-                <h4>2021 Project</h4>
-                <a href="Transportation/transportation-3.jpg" data-lightbox="image-1">VIEW PROJECT</a>
-              </div>
-            </div>
-            <div id="service" className="col-lg-4 col-md-6 col-xs-12  col-6 gallery_iner p0">
-              <img src="Transportation/transportation-3.jpg" alt=".." />
-              <div className="gallery_hover">
-                <h4>2021 Project</h4>
-                <a href="Transportation/transportation-3.jpg" data-lightbox="image-1">VIEW PROJECT</a>
-              </div>
-            </div>
-            <div id="service" className="col-lg-4 col-md-6 col-xs-12xs-12  col-6 gallery_iner p0">
-              <img src="Transportation/transportation-3.jpg" alt=".." />
-              <div className="gallery_hover">
-                <h4>2021 Project</h4>
-                <a href="Transportation/transportation-3.jpg" data-lightbox="image-1">VIEW PROJECT</a>
-              </div>
-            </div>
-            <div id="service" className="col-lg-4 col-md-6 col-xs-12xs-12  col-6 gallery_iner p0">
-              <img src="Transportation/transportation-3.jpg" alt="..." />
-              <div className="gallery_hover">
-                <h4>2021 Project</h4>
-                <a href="Transportation/transportation-3.jpg" data-lightbox="image-1">VIEW PROJECT</a>
-              </div>
-            </div>
-            <div id="service" className="col-lg-4 col-md-6 col-xs-12xs-12  col-6 gallery_iner p0">
-              <img src="Transportation/transportation-3.jpg" alt=".." />
-              <div className="gallery_hover">
-                <h4>2021 Project</h4>
-                <a href="Transportation/transportation-3.jpg" data-lightbox="image-1">VIEW PROJECT</a>
-              </div>
-            </div>
-
-          </div>
-
-        </div>
-      </section>
-
-      {/* End Our Featured Works Area */}
-
-    </>
+        </>
 
 
 
