@@ -6,6 +6,7 @@ import { Link } from "react-router-dom";
 import { Image } from 'antd';
 
 
+
 // history photos
 import history1 from '../About/history/1.jpg'
 import history2 from '../About/history/2.jpg'
@@ -68,7 +69,7 @@ function About() {
                 Goldie Mohr Ltd. The scope of work has evolved to include site preparation, custom trucking, float
                 service, topsoil manufacture, aggregates and winter maintenance. We are a heavy civil construction
                 company.
-        </p>
+              </p>
             </div>
 
             <div className="col-md-5 our_skill_inner">
@@ -118,9 +119,9 @@ function About() {
       <div className="history-container justify-content-center">
 
         <div className="row">
-        <div className="col-lg-2 col-md-3 col-sm-6">
-            <Image width={200} src={history1} alt="old photo" />
-            </div>
+          <div className="col-lg-2 col-md-3 col-sm-6">
+            <Image src={history1} alt="old photo"/>
+          </div>
           <div className="col-lg-2 col-md-3 col-sm-6">
             <Image className="demo cursor" src={history1} alt="old photo" />
           </div>
@@ -172,7 +173,7 @@ function About() {
           <div className="col-lg-2 col-md-3 col-sm-6">
             <img className="demo cursor" src={history17} style={{ width: '100%' }} alt="old photo" />
           </div>
-               </div>
+        </div>
       </div>
 
       <section>
@@ -185,7 +186,7 @@ function About() {
               After many years of service in the Ottawa community, we feel confident that we can cater to your
               needs. We get the job done and we don’t just meet expectations; we exceed them. Our customers
               keep coming back because we are dependable, knowledgeable and pleasant to work with.
-              </p>
+            </p>
             <p>
               Our employees provide unmatched service, delivering top quality service for your business! All of
               our team members are committed to providing MOHR Value to you. In keeping with this desire, we
@@ -210,10 +211,10 @@ function About() {
 
               <p className="communityarea">
                 As a company we truly believe that we have a genuine responsibility to help better the communities we do business in.
-                </p>
+              </p>
               <p className="communityarea">
                 Over the years GOLDIE MOHR LTD. has supported many local charity groups, charity events, sports teams, service clubs and organizations. As a team, we believe a place should be left better than found and we strive to make this possible through our community involvement.
-                </p>
+              </p>
             </div>
           </div>
         </div>
