@@ -23,10 +23,14 @@ class Contact extends React.Component {
         return (
             <>
                 {/* Banner area */}
-                <section className="banner_area" data-stellar-background-ratio="0.5">
-                    <h2>Contact Us</h2>
+                {/* <section className="banner_area" data-stellar-background-ratio="0.5"> */}
+                  
 
-                </section>
+                    <div id="ContactImage">
+                <h2 id="ContactTitle">CONTACT US</h2>
+            </div>
+
+                {/* </section> */}
                 {/* End Banner area */}
 
 

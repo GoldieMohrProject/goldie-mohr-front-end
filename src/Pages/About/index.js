@@ -1,9 +1,8 @@
 import "./style.css"
-
 import React from 'react';
-import './style.css';
 import { Link } from "react-router-dom";
 import { Image } from 'antd';
+import 'antd/dist/antd.css';
 
 
 
@@ -36,6 +35,7 @@ import OCA from '../../assets/OCA.png'
 import OSWCA from '../../assets/OSWCA.png'
 import OTA from '../../assets/OTA.png'
 import WSIB from '../../assets/WSIB.png'
+import SAFETY from '../../assets/safety.jpg'
 
 
 function About() {
@@ -44,9 +44,10 @@ function About() {
 
   return (
     <>
-      <section className="aboutbanner" data-stellar-background-ratio="0.5">
-        <h2>ABOUT US</h2>
-      </section>
+      
+      <div id="AboutImage">
+                <h2 id="AboutTitle">ABOUT US</h2>
+            </div>
 
       {/* <hr className="titleline"></hr> */}
 
@@ -120,9 +121,6 @@ function About() {
 
         <div className="row">
           <div className="col-lg-2 col-md-3 col-sm-6">
-            <Image src={history1} alt="old photo"/>
-          </div>
-          <div className="col-lg-2 col-md-3 col-sm-6">
             <Image className="demo cursor" src={history1} alt="old photo" />
           </div>
           <div className="col-lg-2 col-md-3 col-sm-6">
@@ -132,46 +130,46 @@ function About() {
             <Image className="demo cursor" src={history3} style={{ width: '100%' }} alt="old photo" />
           </div>
           <div className="col-lg-2 col-md-3 col-sm-6">
-            <img className="demo cursor" src={history4} style={{ width: '100%' }} alt="old photo" />
+            <Image className="demo cursor" src={history4} style={{ width: '100%' }} alt="old photo" />
           </div>
           <div className="col-lg-2 col-md-3 col-sm-6">
-            <img className="demo cursor" src={history5} style={{ width: '100%' }} alt="old photo" />
+            <Image className="demo cursor" src={history5} style={{ width: '100%' }} alt="old photo" />
           </div>
           <div className="col-lg-2 col-md-3 col-sm-6">
-            <img className="demo cursor" src={history6} style={{ width: '100%' }} alt="old photo" />
+            <Image className="demo cursor" src={history6} style={{ width: '100%' }} alt="old photo" />
           </div>
           <div className="col-lg-2 col-md-3 col-sm-6">
-            <img className="demo cursor" src={history7} style={{ width: '100%' }} alt="old photo" />
+            <Image className="demo cursor" src={history7} style={{ width: '100%' }} alt="old photo" />
           </div>
           <div className="col-lg-2 col-md-3 col-sm-6">
-            <img className="demo cursor" src={history8} style={{ width: '100%' }} alt="old photo" />
+            <Image className="demo cursor" src={history8} style={{ width: '100%' }} alt="old photo" />
           </div>
           <div className="col-lg-2 col-md-3 col-sm-6">
-            <img className="demo cursor" src={history9} style={{ width: '100%' }} alt="old photo" />
+            <Image className="demo cursor" src={history9} style={{ width: '100%' }} alt="old photo" />
           </div>
           <div className="col-lg-2 col-md-3 col-sm-6">
-            <img className="demo cursor" src={history10} style={{ width: '100%' }} alt="old photo" />
+            <Image className="demo cursor" src={history10} style={{ width: '100%' }} alt="old photo" />
           </div>
           <div className="col-lg-2 col-md-3 col-sm-6">
-            <img className="demo cursor" src={history11} style={{ width: '100%' }} alt="old photo" />
+            <Image className="demo cursor" src={history11} style={{ width: '100%' }} alt="old photo" />
           </div>
           <div className="col-lg-2 col-md-3 col-sm-6">
-            <img className="demo cursor" src={history12} style={{ width: '100%' }} alt="old photo" />
+            <Image className="demo cursor" src={history12} style={{ width: '100%' }} alt="old photo" />
           </div>
           <div className="col-lg-2 col-md-3 col-sm-6">
-            <img className="demo cursor" src={history13} style={{ width: '100%' }} alt="old photo" />
+            <Image className="demo cursor" src={history13} style={{ width: '100%' }} alt="old photo" />
           </div>
           <div className="col-lg-2 col-md-3 col-sm-6">
-            <img className="demo cursor" src={history14} style={{ width: '100%' }} alt="old photo" />
+            <Image className="demo cursor" src={history14} style={{ width: '100%' }} alt="old photo" />
           </div>
           <div className="col-lg-2 col-md-3 col-sm-6">
-            <img className="demo cursor" src={history15} style={{ width: '100%' }} alt="old photo" />
+            <Image className="demo cursor" src={history15} style={{ width: '100%' }} alt="old photo" />
           </div>
           <div className="col-lg-2 col-md-3 col-sm-6">
-            <img className="demo cursor" src={history16} style={{ width: '100%' }} alt="old photo" />
+            <Image className="demo cursor" src={history16} style={{ width: '100%' }} alt="old photo" />
           </div>
           <div className="col-lg-2 col-md-3 col-sm-6">
-            <img className="demo cursor" src={history17} style={{ width: '100%' }} alt="old photo" />
+            <Image className="demo cursor" src={history17} style={{ width: '100%' }} alt="old photo" />
           </div>
         </div>
       </div>
@@ -244,6 +242,8 @@ function About() {
           <img src={OSWCA} className="imgmemb" />
           <img src={OTA} className="imgmemb" />
           <img src={WSIB} className="imgmemb" />
+          <img src={SAFETY} className="imgmemb" />
+          
         </div>
 
 

@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { HashRouter as Router, Route } from "react-router-dom";
 import About from "./Pages/About"
 import React from 'react'
 import Wrapper from './Components/Wrapper'

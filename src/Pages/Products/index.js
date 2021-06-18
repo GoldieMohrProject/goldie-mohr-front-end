@@ -12,7 +12,7 @@ function Product() {
         <>
 
             <div id="products">
-                <h1 id="productTitle">PRODUCTS</h1>
+                <h2 id="productTitle">PRODUCTS</h2>
             </div>
 
 

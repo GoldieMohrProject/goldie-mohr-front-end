@@ -9,7 +9,7 @@ function Career() {
     return (
         <>
             <div id="careerImage">
-                <h1 id="careerTitle">CAREERS</h1>
+                <h2 id="careerTitle">CAREERS</h2>
             </div>
             <div className="container">
                 <div style={{ marginBottom: "40px", marginTop: "40px" }}>

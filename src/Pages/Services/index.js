@@ -54,10 +54,6 @@ const construction = [
     thumbnail: 'Construction/9.jpg',
   },
   {
-    original: 'Construction/9.jpg',
-    thumbnail: 'Construction/9.jpg',
-  },
-  {
     original: 'Construction/10.jpg',
     thumbnail: 'Construction/10.jpg',
   },
@@ -222,11 +218,11 @@ function Services() {
   return (
     <>
 
-      {/* Banner area */}
-      <section className="banner_area" data-stellar-background-ratio="0.5">
-        <h2>Our Services & Projects</h2>
+     
 
-      </section>
+      <div id="Services">
+        <h2 id="ServicesTitle">Our Services & Projects</h2>
+      </div>
 
 
 
@@ -271,62 +267,86 @@ function Services() {
                 </div>
 
                 <div style={{ marginTop: '5%' }} className="row">
-                  <div className="col">
-                    <div style={{ textAlign: "center" }}>
-                      <p style={{ fontSize: "25px" }}>  GRAVEL <span className="fas fa-square fa-1x decoration"></span> GRADING <span className="fas fa-square fa-1x decoration" ></span> ROAD BUILD <span className="fas fa-square fa-1x decoration"></span> ASPHALT MAINTANENCE <span className="fas fa-square fa-1x decoration"></span> PARKING LOT  </p>
-                    </div>
-                  </div>
-
-                  {/* <div className="col-lg-2 col-md-3 col-xs-12 ">
 
 
-                    <a>
-                      <ArrowRightOutlined style={{ fontSize: '25px', color: '#3178C6' }} />
-
-                      GRAVEL
-
-                    </a>
-                  </div>
                   <div className="col-lg-2 col-md-3 col-xs-12 ">
 
-                    <a>
-                      <ArrowRightOutlined style={{ fontSize: '25px', color: '#3178C6' }} />
+                    <ul class="list-group list-group-horizontal">
+                      <li className="fas fa-square fa-1x decoration"></li>
+
+                      <li style={{ marginLeft: "5%" }}>
+
+
+                        GRAVEL
+
+                      </li>
+                    </ul>
+
+                  </div>
+
+                  <div className="col-lg-2 col-md-3 col-xs-12 ">
+
+                    <ul class="list-group list-group-horizontal">
+                      <li className="fas fa-square fa-1x decoration"></li>
+
+                      <li style={{ marginLeft: "5%" }}>
+
 
                         GRADING
-                    </a>
 
+                      </li>
+                    </ul>
+
+                  </div>
+
+
+                  <div className="col-lg-2 col-md-3 col-xs-12 ">
+
+                    <ul class="list-group list-group-horizontal">
+                      <li className="fas fa-square fa-1x decoration"></li>
+
+                      <li style={{ marginLeft: "5%" }}>
+
+
+                        ROAD BUILD
+
+                      </li>
+                    </ul>
+
+                  </div>
+
+                  <div className="col-lg-3 col-md-3 col-xs-12 ">
+
+                    <ul class="list-group list-group-horizontal">
+                      <li className="fas fa-square fa-1x decoration"></li>
+
+                      <li style={{ marginLeft: "5%" }}>
+
+
+                        ASPHALT MAINTANENCE
+
+                      </li>
+                    </ul>
 
                   </div>
 
                   <div className="col-lg-2 col-md-3 col-xs-12 ">
-                    <a>
-                      <ArrowRightOutlined style={{ fontSize: '25px', color: '#3178C6' }} />
 
-                        ROAD BUILD
-                    </a>
+                    <ul class="list-group list-group-horizontal">
+                      <li className="fas fa-square fa-1x decoration"></li>
 
-                  </div>
-                  <div className="col-lg-3 col-md-3 col-xs-12 ">
+                      <li style={{ marginLeft: "5%" }}>
 
-                    <a>
-                      <ArrowRightOutlined style={{ fontSize: '25px', color: '#3178C6' }} />
+                        PARKING LOT
 
-                        ASPHALT MAINTANENCE
-                    </a>
-
-                  </div>
-                  <div className="col-lg-3 col-md-3 col-xs-12 ">
-
-                    <a>
-                      <ArrowRightOutlined style={{ fontSize: '25px', color: '#3178C6' }} />
-
-                     PARKING LOT
-                  </a>
+                      </li>
+                    </ul>
 
                   </div>
 
 
-                </div> */}
+
+
                 </div>
               </div>
 
@@ -347,56 +367,74 @@ function Services() {
 
                 <div style={{ marginTop: '5%' }} className="row">
 
-                  <div className="col">
-                    <div style={{ fontSize: "25px", textAlign: "center" }}>
-                      <p style={{ fontSize: "25px" }}> TRACTORS <span className="fas fa-square fa-1x decoration"></span> TRAILERS <span className="fas fa-square fa-1x decoration" ></span> ROAD BUILD <span className="fas fa-square fa-1x decoration"></span> TANK TRAILERS <span className="fas fa-square fa-1x decoration"></span> TRI-AXLE
-                    </p>
-                    </div>
-                  </div>
+                  <div className="col-lg-2 col-md-3 col-xs-12 ">
 
-                  {/* <div className="col-lg-2 col-md-2 col-xs-12">
-                    <a>
-                      <ArrowRightOutlined style={{ fontSize: '25px', color: '#3178C6' }} />
+                    <ul class="list-group list-group-horizontal">
+                      <li className="fas fa-square fa-1x decoration"></li>
+
+                      <li style={{ marginLeft: "5%" }}>
 
                         TRACTORS
-                    </a>
+
+                      </li>
+                    </ul>
 
                   </div>
-                  <div className="col-lg-2 col-md-2 col-xs-12">
-                    <a>
-                      <ArrowRightOutlined style={{ fontSize: '25px', color: '#3178C6' }} />
+                  <div className="col-lg-2 col-md-3 col-xs-12 ">
+
+                    <ul class="list-group list-group-horizontal">
+                      <li className="fas fa-square fa-1x decoration"></li>
+
+                      <li style={{ marginLeft: "5%" }}>
 
                         TRAILERS
-                    </a>
+
+                      </li>
+                    </ul>
 
                   </div>
+                  <div className="col-lg-2 col-md-3 col-xs-12 ">
 
-                  <div className="col-lg-3 col-md-3 col-xs-12">
-                    <a>
-                      <ArrowRightOutlined style={{ fontSize: '25px', color: '#3178C6' }} />
+                    <ul class="list-group list-group-horizontal">
+                      <li className="fas fa-square fa-1x decoration"></li>
+
+                      <li style={{ marginLeft: "5%" }}>
 
                         ROAD BUILD
-                    </a>
+
+                      </li>
+                    </ul>
 
                   </div>
-                  <div className="col-lg-3 col-md-3 col-xs-12">
-                    <a>
-                      <ArrowRightOutlined style={{ fontSize: '25px', color: '#3178C6' }} />
+                  <div className="col-lg-2 col-md-3 col-xs-12 ">
+
+                    <ul class="list-group list-group-horizontal">
+                      <li className="fas fa-square fa-1x decoration"></li>
+
+                      <li style={{ marginLeft: "5%" }}>
 
                         TANK TRAILERS
-                    </a>
+
+                      </li>
+                    </ul>
 
                   </div>
-                  <div className="col-lg-2 col-md-3 col-xs-12">
-                    <a>
-                      <ArrowRightOutlined style={{ fontSize: '25px', color: '#3178C6' }} />
+                  <div className="col-lg-2 col-md-3 col-xs-12 ">
+
+                    <ul class="list-group list-group-horizontal">
+                      <li className="fas fa-square fa-1x decoration"></li>
+
+                      <li style={{ marginLeft: "5%" }}>
 
                         TRI-AXLE
-                    </a>
 
-                  </div> */}
+                      </li>
+                    </ul>
+
+                  </div>
 
                 </div>
+
               </div>
 
               <div className="row">
@@ -414,40 +452,62 @@ function Services() {
 
                 </div>
 
-                <div style={{ marginTop: '5%' }} className="row">
+                <div style={{ marginTop: '5%', }} className="row">
 
-                  <div className="col">
-                    <div style={{ fontSize: "25px", textAlign: "center" }}>
-                      <p style={{ fontSize: "25px" }}>  TRACTORS <span className="fas fa-square fa-1x decoration"></span> REMOVING SNOW <span className="fas fa-square fa-1x decoration" ></span> CLEANING SIDEWALKS <span className="fas fa-square fa-1x decoration"></span> DE-ICING
-                    </p>
-                    </div>
+                
+                  <div className="col-lg-3 col-md-3 col-xs-12 ">
+
+                    <ul class="list-group list-group-horizontal">
+                      <li className="fas fa-square fa-1x decoration"></li>
+
+                      <li style={{ marginLeft: "5%" }}>
+
+                        TRACTORS
+
+                      </li>
+                    </ul>
+
                   </div>
+                  <div className="col-lg-3 col-md-3 col-xs-12 ">
 
-                  {/* <div className="col-lg-3 col-md-4 col-xs-12">
-                    <a>
-                      <ArrowRightOutlined style={{ fontSize: '25px', color: '#3178C6' }} />
+                    <ul class="list-group list-group-horizontal">
+                      <li className="fas fa-square fa-1x decoration"></li>
+
+                      <li style={{ marginLeft: "5%" }}>
 
                         REMOVING SNOW
-                    </a>
+
+                      </li>
+                    </ul>
 
                   </div>
-                  <div className="col-lg-4 col-md-4 col-xs-12">
-                    <a>
-                      <ArrowRightOutlined style={{ fontSize: '25px', color: '#3178C6' }} />
+                  <div className="col-lg-3 col-md-3 col-xs-12 ">
+
+                    <ul class="list-group list-group-horizontal">
+                      <li className="fas fa-square fa-1x decoration"></li>
+
+                      <li style={{ marginLeft: "5%" }}>
 
                         CLEANING SIDEWALKS
-                    </a>
+
+                      </li>
+                    </ul>
+
+                  </div>
+                  <div className="col-lg-3 col-md-3 col-xs-12 ">
+
+                    <ul class="list-group list-group-horizontal">
+                      <li className="fas fa-square fa-1x decoration"></li>
+
+                      <li style={{ marginLeft: "5%" }}>
+
+                        DE-ICING
+
+                      </li>
+                    </ul>
 
                   </div>
 
-                  <div className="col-lg-3 col-md-4 col-xs-12">
-                    <a>
-                      <ArrowRightOutlined style={{ fontSize: '25px', color: '#3178C6' }} />
-
-                        DE-ICING
-                    </a>
-
-                  </div> */}
 
                 </div>
               </div>
@@ -469,57 +529,66 @@ function Services() {
                 </div>
                 <div style={{ marginTop: '5%' }} className="row">
 
-                  <div className="col">
-                    <div style={{ fontSize: "25px", textAlign: "center" }}>
-                      <p style={{ fontSize: "25px" }}>  TRACTORS <span className="fas fa-square fa-1x decoration"></span> TRACKTOR <span className="fas fa-square fa-1x decoration" ></span> GRADER <span className="fas fa-square fa-1x decoration"></span> TRUCK <span className="fas fa-square fa-1x decoration"></span> EXCAVATORS
-                    </p>
-                    </div>
-                  </div>
+              
+                  <div className="col-lg-3 col-md-3 col-xs-12 ">
 
+                    <ul class="list-group list-group-horizontal">
+                      <li className="fas fa-square fa-1x decoration"></li>
 
-                  {/* <div className="col-lg-3 col-md-4 col-xs-12">
-                    <a>
-                      <ArrowRightOutlined style={{ fontSize: '25px', color: '#3178C6' }} />
+                      <li style={{ marginLeft: "5%" }}>
 
-                      TRACKTOR
-                    </a>
+                      TRACTORS
 
+                      </li>
+                    </ul>
 
                   </div>
-                  <div className="col-lg-3 col-md-4 col-xs-12">
-                    <a>
-                      <ArrowRightOutlined style={{ fontSize: '25px', color: '#3178C6' }} />
+                  <div className="col-lg-3 col-md-3 col-xs-12 ">
 
-                      GREYDER
-                    </a>
+                    <ul class="list-group list-group-horizontal">
+                      <li className="fas fa-square fa-1x decoration"></li>
 
+                      <li style={{ marginLeft: "5%" }}>
+
+                      GRADER
+
+                      </li>
+                    </ul>
 
                   </div>
+                  <div className="col-lg-3 col-md-3 col-xs-12 ">
 
-                  <div className="col-lg-3 col-md-4 col-xs-12">
-                    <a>
-                      <ArrowRightOutlined style={{ fontSize: '25px', color: '#3178C6' }} />
+                    <ul class="list-group list-group-horizontal">
+                      <li className="fas fa-square fa-1x decoration"></li>
+
+                      <li style={{ marginLeft: "5%" }}>
 
                       TRUCK
-                    </a>
+
+                      </li>
+                    </ul>
 
                   </div>
-                  <div className="col-lg-3 col-md-4 col-xs-12">
-                    <a>
-                      <ArrowRightOutlined style={{ fontSize: '25px', color: '#3178C6' }} />
+                  <div className="col-lg-3 col-md-3 col-xs-12 ">
+
+                    <ul class="list-group list-group-horizontal">
+                      <li className="fas fa-square fa-1x decoration"></li>
+
+                      <li style={{ marginLeft: "5%" }}>
 
                       EXCAVATORS
-                    </a>
 
-                  </div> */}
+                      </li>
+                    </ul>
 
+                  </div>
+                             
                 </div>
 
 
 
               </div>
-              {/* </div> */}
-
+         
 
 
 
@@ -529,26 +598,7 @@ function Services() {
         </div>
       </section>
 
-
-
-      {/* <div className="contact_us">
-                <h4>Contact Us</h4>
-                <a className="contac_namber">Phone: +1 613 838 5042</a>
-                <a className="contac_namber">Toll Free: +1 800 267 55 13</a>
-                <a className="contac_namber">Fax: +1 613 838 58 08</a>
-
-                <p>Lorem Ipsum is simply dummy text of the print-ing and typesetting industry. If you use this site regularly and would like to help keep</p>
-                <a className="button_all">Contact Us</a>
-              </div> */}
-
-
-
-
-
-
-      {/* End Building Construction Area */}
-
-        </>
+    </>
 
 
 
