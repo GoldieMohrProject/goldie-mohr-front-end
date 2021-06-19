@@ -159,6 +159,14 @@ nav.stroke ul li a:hover:after {
   z-index:2000;
 }
 
+@media all and (min-width: 992px) {
+	.navbar .nav-item .dropdown-menu{ display: none; }
+	.navbar .nav-item:hover .nav-link{   }
+	.navbar .nav-item:hover .dropdown-menu{ display: block; }
+	.navbar .nav-item .dropdown-menu{ margin-top:0; width: 200px;}
+}
+
+
 .dropdown-content {
   margin-left:10px;
   display: none;

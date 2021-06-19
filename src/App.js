@@ -9,6 +9,11 @@ import Home from "./Pages/Home/index"
 import Career from "./Pages/Career"
 import Navbar from "./Components/Navbar"
 
+import RoadConstruction from "./Pages/Road Construction"
+import Transportation from "./Pages/Transportation"
+
+import WinterMaintenance from "./Pages/Winter Maintenance"
+import EquipmentRental from "./Pages/EquipmentRental"
 import Product from "./Pages/Products/index"
 
 
@@ -22,6 +27,11 @@ function App() {
           <Route exact path="/About" component={About} />
           <Route exact path="/" component={Home} />
           <Route exact path="/Service" component={Service} />
+          <Route exact path="/Road-Construction" component={RoadConstruction}/>
+            <Route exact path="/Transportation" component={Transportation}/>
+          <Route exact path="/Winter-Maintenance" component={WinterMaintenance}/>
+          <Route exact path="/Equipment-Rental" component={EquipmentRental}/>
+
           <Route exact path="/Product" component={Product} />
           <Route exact path="/Career" component={Career} />
 

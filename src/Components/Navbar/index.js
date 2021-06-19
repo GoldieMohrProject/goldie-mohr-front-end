@@ -21,8 +21,8 @@ function Navbar() {
       </section>
       <nav className="navbar navbar-expand-lg navbar-light header_aera stroke" id="main_navbar">
         <div className="container">
-        <NavLink className="nav-link" aria-current="page" to="/" onClick={() => { window.location.href = "/" }} >
-          <img src="images/header-logo.png" ></img></NavLink>
+          <NavLink className="nav-link" aria-current="page" to="/" onClick={() => { window.location.href = "/" }} >
+            <img src="images/header-logo.png" ></img></NavLink>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#min_navbar" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
@@ -31,9 +31,17 @@ function Navbar() {
               <li className="nav-item">
                 <NavLink className="nav-link" aria-current="page" to="/" onClick={() => { window.location.href = "/" }} >Home</NavLink>
               </li>
-              <li className="nav-item">
-                <NavLink className="nav-link" to="./Service">Services & Projects</NavLink>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown">  Our Services   &   Projects   </a>
+                <ul class="dropdown-menu">
+                  <li> <NavLink className="nav-link" to="./Road-Construction">Road Construction</NavLink></li>
+                  <li> <NavLink className="nav-link" to="./Winter-Maintenance">Winter Maintenance   </NavLink></li>
+                  <li> <NavLink className="nav-link" to="./Transportation">Transportation</NavLink></li>
+                  <li> <NavLink className="nav-link" to="./Equipment-Rental"> Equipment Rental</NavLink></li>
+                </ul>
               </li>
+
               <li className="nav-item">
                 <NavLink className="nav-link" to="./Product">Products</NavLink>
               </li>
