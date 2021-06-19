@@ -75,10 +75,6 @@ const transportation = [
     thumbnail: 'Transportation/16.jpg',
   },
   {
-    original: 'Transportation/17.jpg',
-    thumbnail: 'Transportation/17.jpg',
-  },
-  {
     original: 'Transportation/18.jpg',
     thumbnail: 'Transportation/18.jpg',
   }
@@ -150,7 +146,7 @@ function Transportation() {
                     <ul class="list-group list-group-horizontal">
                       <li className="fas fa-square fa-1x decoration"></li>
 
-                      <li style={{ marginLeft: "5%" }}>
+                   <li style={{ marginLeft: "5%", color:"black" }}>
 
                         TRACTORS
 
@@ -163,7 +159,7 @@ function Transportation() {
                     <ul class="list-group list-group-horizontal">
                       <li className="fas fa-square fa-1x decoration"></li>
 
-                      <li style={{ marginLeft: "5%" }}>
+                   <li style={{ marginLeft: "5%", color:"black" }}>
 
                         TRAILERS
 
@@ -176,7 +172,7 @@ function Transportation() {
                     <ul class="list-group list-group-horizontal">
                       <li className="fas fa-square fa-1x decoration"></li>
 
-                      <li style={{ marginLeft: "5%" }}>
+                   <li style={{ marginLeft: "5%", color:"black" }}>
 
                         ROAD BUILD
 
@@ -189,7 +185,7 @@ function Transportation() {
                     <ul class="list-group list-group-horizontal">
                       <li className="fas fa-square fa-1x decoration"></li>
 
-                      <li style={{ marginLeft: "5%" }}>
+                   <li style={{ marginLeft: "5%", color:"black" }}>
 
                         TANK TRAILERS
 
@@ -202,7 +198,7 @@ function Transportation() {
                     <ul class="list-group list-group-horizontal">
                       <li className="fas fa-square fa-1x decoration"></li>
 
-                      <li style={{ marginLeft: "5%" }}>
+                   <li style={{ marginLeft: "5%", color:"black" }}>
 
                         TRI-AXLE
 

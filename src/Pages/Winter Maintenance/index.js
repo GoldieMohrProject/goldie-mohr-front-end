@@ -84,7 +84,7 @@ function WinterMaintenance() {
                     <ul class="list-group list-group-horizontal">
                       <li className="fas fa-square fa-1x decoration"></li>
 
-                      <li style={{ marginLeft: "5%" }}>
+                   <li style={{ marginLeft: "5%", color:"black" }}>
 
                         TRACTORS
 
@@ -97,7 +97,7 @@ function WinterMaintenance() {
                     <ul class="list-group list-group-horizontal">
                       <li className="fas fa-square fa-1x decoration"></li>
 
-                      <li style={{ marginLeft: "5%" }}>
+                   <li style={{ marginLeft: "5%", color:"black" }}>
 
                         REMOVING SNOW
 
@@ -110,7 +110,7 @@ function WinterMaintenance() {
                     <ul class="list-group list-group-horizontal">
                       <li className="fas fa-square fa-1x decoration"></li>
 
-                      <li style={{ marginLeft: "5%" }}>
+                   <li style={{ marginLeft: "5%", color:"black" }}>
 
                         CLEANING SIDEWALKS
 
@@ -123,7 +123,7 @@ function WinterMaintenance() {
                     <ul class="list-group list-group-horizontal">
                       <li className="fas fa-square fa-1x decoration"></li>
 
-                      <li style={{ marginLeft: "5%" }}>
+                   <li style={{ marginLeft: "5%", color:"black" }}>
 
                         DE-ICING
 

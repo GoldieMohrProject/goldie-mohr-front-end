@@ -34,16 +34,16 @@ const construction = [
     thumbnail: 'Construction/4.jpg',
   },
   {
-    original: 'Construction/5.JPG',
-    thumbnail: 'Construction/5.JPG',
+    original: 'Construction/5.jpg',
+    thumbnail: 'Construction/5.jpg',
   },
   {
     original: 'Construction/6.jpg',
     thumbnail: 'Construction/6.jpg',
   },
   {
-    original: 'Construction/7.JPG',
-    thumbnail: 'Construction/7.JPG',
+    original: 'Construction/7.jpg',
+    thumbnail: 'Construction/7.jpg',
   },
   {
     original: 'Construction/8.jpg',
@@ -156,7 +156,7 @@ function RoadConstruction() {
                     <ul class="list-group list-group-horizontal">
                       <li className="fas fa-square fa-1x decoration"></li>
 
-                      <li style={{ marginLeft: "5%" }}>
+                   <li style={{ marginLeft: "5%", color:"black" }}>
 
 
                         GRAVEL
@@ -171,7 +171,7 @@ function RoadConstruction() {
                     <ul class="list-group list-group-horizontal">
                       <li className="fas fa-square fa-1x decoration"></li>
 
-                      <li style={{ marginLeft: "5%" }}>
+                      <li style={{ marginLeft: "5%", color:"black" }}>
 
 
                         GRADING
@@ -187,7 +187,7 @@ function RoadConstruction() {
                     <ul class="list-group list-group-horizontal">
                       <li className="fas fa-square fa-1x decoration"></li>
 
-                      <li style={{ marginLeft: "5%" }}>
+                   <li style={{ marginLeft: "5%", color:"black" }}>
 
 
                         ROAD BUILD
@@ -202,7 +202,7 @@ function RoadConstruction() {
                     <ul class="list-group list-group-horizontal">
                       <li className="fas fa-square fa-1x decoration"></li>
 
-                      <li style={{ marginLeft: "5%" }}>
+                   <li style={{ marginLeft: "5%", color:"black" }}>
 
 
                         ASPHALT MAINTANENCE
@@ -217,7 +217,7 @@ function RoadConstruction() {
                     <ul class="list-group list-group-horizontal">
                       <li className="fas fa-square fa-1x decoration"></li>
 
-                      <li style={{ marginLeft: "5%" }}>
+                   <li style={{ marginLeft: "5%", color:"black" }}>
 
                         PARKING LOT
 

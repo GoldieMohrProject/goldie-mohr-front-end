@@ -90,7 +90,7 @@ function EquipmentRental() {
                     <ul class="list-group list-group-horizontal">
                       <li className="fas fa-square fa-1x decoration"></li>
 
-                      <li style={{ marginLeft: "5%" }}>
+                   <li style={{ marginLeft: "5%", color:"black" }}>
 
                         TRACTORS
 
@@ -103,7 +103,7 @@ function EquipmentRental() {
                     <ul class="list-group list-group-horizontal">
                       <li className="fas fa-square fa-1x decoration"></li>
 
-                      <li style={{ marginLeft: "5%" }}>
+                   <li style={{ marginLeft: "5%", color:"black" }}>
 
                         GRADER
 
@@ -116,7 +116,7 @@ function EquipmentRental() {
                     <ul class="list-group list-group-horizontal">
                       <li className="fas fa-square fa-1x decoration"></li>
 
-                      <li style={{ marginLeft: "5%" }}>
+                   <li style={{ marginLeft: "5%", color:"black" }}>
 
                         TRUCK
 
@@ -129,7 +129,7 @@ function EquipmentRental() {
                     <ul class="list-group list-group-horizontal">
                       <li className="fas fa-square fa-1x decoration"></li>
 
-                      <li style={{ marginLeft: "5%" }}>
+                   <li style={{ marginLeft: "5%", color:"black" }}>
 
                         EXCAVATORS
 
