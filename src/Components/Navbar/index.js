@@ -32,17 +32,17 @@ function Navbar() {
                 <NavLink className="nav-link" aria-current="page" to="/" onClick={() => { window.location.href = "/" }} >Home</NavLink>
               </li>
 
-              <li class="nav-item dropdown">
-                <a class="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown">  Our Services   &   Projects   </a>
+              <li className="nav-item dropdown">
+                <NavLink class="nav-link" to="/" data-bs-toggle="dropdown">  Our Services   &   Projects   </NavLink>
                 <ul class="dropdown-menu">
-                  <li> <NavLink className="nav-link" to="./Road-Construction">Road Construction</NavLink></li>
-                  <li> <NavLink className="nav-link" to="./Winter-Maintenance">Winter Maintenance   </NavLink></li>
-                  <li> <NavLink className="nav-link" to="./Transportation">Transportation</NavLink></li>
-                  <li> <NavLink className="nav-link" to="./Equipment-Rental"> Equipment Rental</NavLink></li>
+                  <li> <NavLink className="nav-link drop-menu" to="./Road-Construction">Road Construction</NavLink></li>
+                  <li> <NavLink className="nav-link drop-menu" to="./Winter-Maintenance">Winter Maintenance   </NavLink></li>
+                  <li> <NavLink className="nav-link drop-menu" to="./Transportation">Transportation</NavLink></li>
+                  <li> <NavLink className="nav-link drop-menu" to="./Equipment-Rental"> Equipment Rental</NavLink></li>
                 </ul>
               </li>
 
-              <li className="nav-item">
+              <li className="nav-item ">
                 <NavLink className="nav-link" to="./Product">Products</NavLink>
               </li>
               <li className="nav-item">
