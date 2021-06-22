@@ -33,8 +33,8 @@ function Navbar() {
               </li>
 
               <li className="nav-item dropdown">
-                <NavLink class="nav-link" to="/" data-bs-toggle="dropdown">  Our Services   &   Projects   </NavLink>
-                <ul class="dropdown-menu">
+                <NavLink className="nav-link" to="/" data-bs-toggle="dropdown">  Our Services   &   Projects   </NavLink>
+                <ul className="dropdown-menu">
                   <li> <NavLink className="nav-link drop-menu" to="./Road-Construction">Road Construction</NavLink></li>
                   <li> <NavLink className="nav-link drop-menu" to="./Winter-Maintenance">Winter Maintenance   </NavLink></li>
                   <li> <NavLink className="nav-link drop-menu" to="./Transportation">Transportation</NavLink></li>
