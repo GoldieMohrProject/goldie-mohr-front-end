@@ -9,21 +9,21 @@ const slides = [
     {
       city: '',
       country: '',
-      img: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/paris.jpg',
+      img: 'https://user-images.githubusercontent.com/77207167/123183480-a16a1e00-d45f-11eb-879b-d999a8593f4d.JPG',
     },
     {
       city: '',
-      img: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/singapore.jpg',
-    },
-    {
-      city: '',
-      country: '',
-      img: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/prague.jpg',
+      img: 'https://user-images.githubusercontent.com/77207167/123183540-bd6dbf80-d45f-11eb-842c-9d3d4a082f89.JPG',
     },
     {
       city: '',
       country: '',
-      img: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/amsterdam.jpg',
+      img: 'https://user-images.githubusercontent.com/77207167/123183548-bfd01980-d45f-11eb-8149-047555498fbf.jpg',
+    },
+    {
+      city: '',
+      country: '',
+      img: 'https://user-images.githubusercontent.com/77207167/123183553-c199dd00-d45f-11eb-946f-f357526d7632.jpg',
     },
     {
       city: '',
