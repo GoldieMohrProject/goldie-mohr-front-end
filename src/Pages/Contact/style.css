@@ -27,7 +27,6 @@
 
 #ContactTitle {
   color: white;
-  font-size: 60px;
   font-weight: bold;
   letter-spacing: 3px;
   margin: 0;
@@ -36,6 +35,16 @@
   position: absolute;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
+}
+@media only screen and (max-width: 800px) {
+  #ContactTitle {
+    font-size: 30px;
+  }
+}
+@media only screen and (min-width: 800px) {
+  #ContactTitle {
+    font-size: 55px;
+  }
 }
 .banner_area h2 {
   color: #fff;

@@ -39,7 +39,6 @@ ul {
 
 #titleBanner {
   color: white;
-  font-size: 55px;
   font-weight: bold;
   letter-spacing: 3px;
   margin: 0;
@@ -49,7 +48,16 @@ ul {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
-
+@media only screen and (max-width: 800px) {
+  #titleBanner {
+    font-size: 30px;
+  }
+}
+@media only screen and (min-width: 800px) {
+  #titleBanner {
+    font-size: 55px;
+  }
+}
 .banner_area h2 {
   color: #fff;
   font: 400 40px "Oswald", sans-serif;

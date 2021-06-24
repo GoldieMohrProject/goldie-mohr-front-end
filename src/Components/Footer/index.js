@@ -25,7 +25,7 @@ function Footer() {
                             <li style={{ display: "inline-flex", marginRight: "10px" }}><a href="https://twitter.com/goldiemohrltd" target="_blank" className="button_social"><i id="twitterlogo" class="fab fa-twitter fa-2x" aria-hidden="true"></i></a></li>
                             <li style={{ display: "inline-flex", marginRight: "10px" }}><a href="https://www.linkedin.com/company/goldiemohrltd/" target="_blank" className="button_social"><i id="linkedinlogo" class="fab fa-linkedin-in fa-2x" aria-hidden="true"></i></a></li>
                             <li style={{ display: "inline-flex", paddingLeft: '100px' }}>
-                                <a href class='animated-arrow' onClick={goTop}>
+                                <a href class='animated-arrow py-3' onClick={goTop}>
                                     <span class='the-arrow -left'>
                                         <span class='shaft'></span>
                                     </span>
