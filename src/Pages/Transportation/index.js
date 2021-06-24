@@ -117,7 +117,7 @@ function Transportation() {
                 <ul class="row painting">
                  
                   
-                    <li><a style={{textAlign:"center"}} className="nounderline" href="#Transportation"><i class="fa fa-truck" aria-hidden="true"></i>Transportation</a></li>
+                    <li><a style={{textAlign:"center"}} className="nounderline"><i class="fa fa-truck" aria-hidden="true"></i>Transportation</a></li>
                 
                 
                 </ul>

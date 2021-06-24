@@ -55,7 +55,7 @@ function WinterMaintenance() {
 
                 <ul class="row painting">
                  
-                    <li><a style={{textAlign:"center"}} className="nounderline" href="#Winter Meintenance"><i class="fa fa-road" aria-hidden="true"></i>Winter Maintenance</a></li>
+                    <li><a style={{textAlign:"center"}} className="nounderline"><i class="fa fa-road" aria-hidden="true"></i>Winter Maintenance</a></li>
                
 
                 </ul>

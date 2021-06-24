@@ -7,30 +7,24 @@ import './style.css'
 
 const slides = [
     {
-        city: '',
-        country: '',
-        img: 'https://user-images.githubusercontent.com/71358869/123189251-7980b780-d46b-11eb-890e-9aa502239796.jpg',
-      },
-    {
       city: '',
       country: '',
-      img: 'https://user-images.githubusercontent.com/71358869/123189602-1e02f980-d46c-11eb-9b54-8423d5ab9956.JPG',
+      img: 'https://user-images.githubusercontent.com/77207167/123183480-a16a1e00-d45f-11eb-879b-d999a8593f4d.JPG',
+    },
+    {
+      city: '',
+      img: 'https://user-images.githubusercontent.com/77207167/123183540-bd6dbf80-d45f-11eb-842c-9d3d4a082f89.JPG',
     },
     {
       city: '',
       country: '',
-      img: 'https://user-images.githubusercontent.com/71358869/123189097-33c3ef00-d46b-11eb-859f-f4ea050c9702.jpg',
+      img: 'https://user-images.githubusercontent.com/77207167/123183548-bfd01980-d45f-11eb-8149-047555498fbf.jpg',
     },
-   
     {
       city: '',
       country: '',
-      img: 'https://user-images.githubusercontent.com/71358869/123189807-7639fb80-d46c-11eb-9a6c-2e09783ca62a.jpg',
-    },
-    {
-        city: '',
-        img: 'https://user-images.githubusercontent.com/71358869/123188992-02e3ba00-d46b-11eb-936b-9b0dd31dabcf.JPG',
-      },
+      img: 'https://user-images.githubusercontent.com/77207167/123183553-c199dd00-d45f-11eb-946f-f357526d7632.jpg',
+    }
   ];
   
 function Home() {

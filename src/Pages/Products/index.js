@@ -2,7 +2,7 @@
 
 import React from 'react';
 import './style.css'
-import aggregates from "../Products/aggregates.png"
+import aggregates from "../Products/aggregates.jpg"
 import topsoil from "../Products/topsoil.jpeg"
 
 
