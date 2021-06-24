@@ -31,19 +31,7 @@ function Home() {
     return (
         <Wrapper>
             <Slider slides={slides} />
-            {/* <div >
-                <a class="container hideArrow" style={{ zIndex: '10', position: 'absolute', paddingLeft: '47%', bottom: '5%' }}>
-                    <div class="content">
-                        <svg id="more-arrows">
-                            <polygon class="arrow-top" points="37.6,27.9 1.8,1.3 3.3,0 37.6,25.3 71.9,0 73.7,1.3 " />
-                            <polygon class="arrow-middle" points="37.6,45.8 0.8,18.7 4.4,16.4 37.6,41.2 71.2,16.4 74.5,18.7 " />
-                            <polygon class="arrow-bottom" points="37.6,64 0,36.1 5.1,32.8 37.6,56.8 70.4,32.8 75.5,36.1 " />
-                        </svg>
-                    </div>
-                </a>
-
-            </div> */}
- 
+         
                 <section class="row professional_builder backgroounnd"  >
                     <div class="container">
                         <div class="row builder_all">
@@ -103,17 +91,7 @@ function Home() {
                                         </CountUp>
                                         <h6>PROJECT COMPLETED</h6>
                                     </div>
-                                    {/* <div class="col-md-3 col-sm-6 p0 completed">
-                                        <i class="fa fa-home" aria-hidden="true"></i>
-                                        <CountUp end={229} redraw={true}>
-                                            {({ countUpRef, start }) => (
-                                                <VisibilitySensor onChange={start} delayedCall>
-                                                    <span style={{ color: 'white' }} class="counter" ref={countUpRef} />
-                                                </VisibilitySensor>
-                                            )}
-                                        </CountUp>
-                                        <h6>HOUSE RENOVATIONS</h6>
-                                    </div> */}
+                                   
                                     <div class="col-md-6 col-sm-6 p0 completed rightPad">
                                         <i class="fa fa-child" aria-hidden="true"></i>
                                         <CountUp end={50} redraw={true}>
@@ -125,17 +103,7 @@ function Home() {
                                         </CountUp>
                                         <h6>WORKERS EMPLOYED</h6>
                                     </div>
-                                    {/* <div class="col-md-3 col-sm-6 p0 completed">
-                                        <i class="fa fa-trophy" aria-hidden="true"></i>
-                                        <CountUp end={25} redraw={true}>
-                                            {({ countUpRef, start }) => (
-                                                <VisibilitySensor onChange={start} delayedCall>
-                                                    <span style={{ color: 'white' }} class="counter" ref={countUpRef} />
-                                                </VisibilitySensor>
-                                            )}
-                                        </CountUp>
-                                        <h6>AWARDS WON</h6>
-                                    </div> */}
+                        
                                 </div>
                             </section>
 
