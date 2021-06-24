@@ -35,8 +35,8 @@ function WinterMaintenance() {
 
 
 
-      <div id="Services">
-        <h2 id="ServicesTitle">Our Services & Projects</h2>
+      <div id="backgroundBanner">
+        <h2 id="titleBanner">WINTER MAINTENANCE</h2>
       </div>
 
 
