@@ -24,12 +24,7 @@ const slides = [
       city: '',
       country: '',
       img: 'https://user-images.githubusercontent.com/77207167/123183553-c199dd00-d45f-11eb-946f-f357526d7632.jpg',
-    },
-    {
-      city: '',
-      country: '',
-      img: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/moscow.jpg',
-    },
+    }
   ];
   
 function Home() {
