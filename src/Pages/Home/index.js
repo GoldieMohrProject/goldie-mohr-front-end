@@ -4,14 +4,39 @@ import CountUp from "react-countup";
 import VisibilitySensor from 'react-visibility-sensor';
 import Slider from '../../Components/Slider'
 import './style.css'
-// configureAnchors({ offset: 0, scrollDuration: 100, keepLastAnchorHash: false })
 
-
+const slides = [
+    {
+      city: '',
+      country: '',
+      img: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/paris.jpg',
+    },
+    {
+      city: '',
+      img: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/singapore.jpg',
+    },
+    {
+      city: '',
+      country: '',
+      img: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/prague.jpg',
+    },
+    {
+      city: '',
+      country: '',
+      img: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/amsterdam.jpg',
+    },
+    {
+      city: '',
+      country: '',
+      img: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/moscow.jpg',
+    },
+  ];
+  
 function Home() {
     return (
         <Wrapper>
-            <Slider />
-            <div >
+            <Slider slides={slides} />
+            {/* <div >
                 <a class="container hideArrow" style={{ zIndex: '10', position: 'absolute', paddingLeft: '47%', bottom: '5%' }}>
                     <div class="content">
                         <svg id="more-arrows">
@@ -22,7 +47,7 @@ function Home() {
                     </div>
                 </a>
 
-            </div>
+            </div> */}
  
                 <section class="row professional_builder backgroounnd"  >
                     <div class="container">

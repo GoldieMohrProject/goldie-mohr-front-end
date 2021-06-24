@@ -1,39 +1,84 @@
-import React from 'react'
-import './style.css'
+  
+import React   from 'react'
+import classNames from 'classnames';
+import './slidercss.css'
 
-class Slider extends React.Component {
- 
-  componentDidMount() {
-    const script = document.createElement("script");
-    script.async = true;
-    script.src = "js/slider.js";
-    //For head
-    document.head.appendChild(script);
-
-    // For body
-    document.body.appendChild(script);
-  }
-  render() {
-    return (
-      <>
-        <div className="sld-container" id="sld-container">
-          <div className="sld-caption" id="slider-caption">
-            <div className="sld-caption-heading">
-              <h1>Lorem Ipsum</h1>
-            </div>
-            <div className="sld-caption-subhead"><span>dolor sit amet, consectetur adipiscing elit.</span></div><a className="btn" href="#">Sit Amet</a>
+export default class CitiesSlider extends React.Component {
+    constructor(props) {
+      super(props);
+      
+      this.IMAGE_PARTS = 4;
+      
+      this.changeTO = null;
+      this.AUTOCHANGE_TIME = 4000;
+      
+      this.state = { activeSlide: -1, prevSlide: -1, sliderReady: false };
+    }
+    
+  
+    
+    componentWillUnmount() {
+      window.clearTimeout(this.changeTO);
+    }
+    
+    componentDidMount() {
+      this.runAutochangeTO();
+      setTimeout(() => {
+        this.setState({ activeSlide: 0, sliderReady: true });
+      }, 0);
+    }
+    
+    runAutochangeTO() {
+      this.changeTO = setTimeout(() => {
+        this.changeSlides(1);
+        this.runAutochangeTO();
+      }, this.AUTOCHANGE_TIME);
+    }
+    
+    changeSlides(change) {
+      window.clearTimeout(this.changeTO);
+      const { length } = this.props.slides;
+      const prevSlide = this.state.activeSlide;
+      let activeSlide = prevSlide + change;
+      if (activeSlide < 0) activeSlide = length - 1;
+      if (activeSlide >= length) activeSlide = 0;
+      this.setState({ activeSlide, prevSlide });
+    }
+    
+    render() {
+      const { activeSlide, prevSlide, sliderReady } = this.state;
+      return (
+        <div className={classNames('slider', { 's--ready': sliderReady })}>
+          {/* <p className="slider__top-heading">Travelers</p> */}
+          <div className="slider__slides">
+            {this.props.slides.map((slide, index) => (
+              <div
+                className={classNames('slider__slide', { 's--active': activeSlide === index, 's--prev': prevSlide === index  })}
+                key={slide.city}
+                >
+                {/* <div className="slider__slide-content"> */}
+                  {/* <h3 className="slider__slide-subheading">{slide.country || slide.city}</h3>
+                  <h2 className="slider__slide-heading">
+                    {slide.city.split('').map(l => <span>{l}</span>)}
+                  </h2> */}
+                  {/* <p className="slider__slide-readmore">read more</p> */}
+                {/* </div> */}
+                <div className="slider__slide-parts">
+                  {[...Array(this.IMAGE_PARTS).fill()].map((x, i) => (
+                    <div className="slider__slide-part" key={i}>
+                      <div className="slider__slide-part-inner" style={{ backgroundImage: `url(${slide.img})` }} />
+                    </div>
+                  ))}
+                </div>
+              </div>
+            ))}
           </div>
-          <div className="left-col" id="left-col">
-            <div id="left-slider" />
-          </div>
-          <ul className="sld-nav">
-            <li className="slide-up"> <a href="#">&lt;</a></li>
-            <li className="slide-down"> <a id="down_button" href="#">&gt;</a></li>
-          </ul>
+          <div className="slider__control" onClick={() => this.changeSlides(-1)} />
+          <div className="slider__control slider__control--right" onClick={() => this.changeSlides(1)} />
         </div>
-      </>
-    )
+      );
+    }
   }
-}
-
-export default Slider
+  
+//   ReactDOM.render(<CitiesSlider slides={slides} />, document.querySelector('.App'));
+  
