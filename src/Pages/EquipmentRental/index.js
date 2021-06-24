@@ -63,7 +63,7 @@ function EquipmentRental() {
 
                 <ul class="row painting">
                 
-                    <li><a style={{textAlign:"center"}} className="nounderline" href="#Heavy Equipment Rental"><i class="fas fa-tools" aria-hidden="true"></i>Heavy Equipment Rental</a></li>
+                    <li><a style={{textAlign:"center"}} className="nounderline"><i class="fas fa-tools" aria-hidden="true"></i>Heavy Equipment Rental</a></li>
                   
                 </ul>
               </div>

@@ -1,9 +1,8 @@
 {
-  "name": "client",
+  "name": "Goldie-Mohr-LTD",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "antd": "^4.16.2",
     "bootstrap": "^4.6.0",
     "classnames": "^2.3.1",
     "emailjs-com": "^2.6.4",
@@ -13,7 +12,6 @@
     "react-countup": "^4.3.3",
     "react-dom": "^17.0.2",
     "react-image-gallery": "^1.0.9",
-    "react-minimal-pie-chart": "^8.2.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
     "react-scrollable-anchor": "^0.6.1",
