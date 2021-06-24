@@ -7,29 +7,30 @@ import './style.css'
 
 const slides = [
     {
-      city: '',
-      country: '',
-      img: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/paris.jpg',
-    },
-    {
-      city: '',
-      img: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/singapore.jpg',
-    },
+        city: '',
+        country: '',
+        img: 'https://user-images.githubusercontent.com/71358869/123189251-7980b780-d46b-11eb-890e-9aa502239796.jpg',
+      },
     {
       city: '',
       country: '',
-      img: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/prague.jpg',
+      img: 'https://user-images.githubusercontent.com/71358869/123189602-1e02f980-d46c-11eb-9b54-8423d5ab9956.JPG',
     },
     {
       city: '',
       country: '',
-      img: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/amsterdam.jpg',
+      img: 'https://user-images.githubusercontent.com/71358869/123189097-33c3ef00-d46b-11eb-859f-f4ea050c9702.jpg',
     },
+   
     {
       city: '',
       country: '',
-      img: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/moscow.jpg',
+      img: 'https://user-images.githubusercontent.com/71358869/123189807-7639fb80-d46c-11eb-9a6c-2e09783ca62a.jpg',
     },
+    {
+        city: '',
+        img: 'https://user-images.githubusercontent.com/71358869/123188992-02e3ba00-d46b-11eb-936b-9b0dd31dabcf.JPG',
+      },
   ];
   
 function Home() {

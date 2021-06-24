@@ -2,9 +2,25 @@
   .slider {
     overflow: hidden;
     position: relative;
-    height: 90vh;
+    width: 100%;
     color: #fff;
   }
+  @media only screen and (max-width: 587px) {
+    .slider {
+      height: 30vh;
+    }
+  }
+  @media only screen and (min-width: 588px) and (max-width:1019px) {
+    .slider {
+      height: 60vh;
+    }
+  }
+  @media only screen and (min-width: 1020px) {
+    .slider {
+      height: 90vh;
+    }
+  }
+
   .slider__top-heading {
     z-index: 12;
     position: absolute;
@@ -146,7 +162,7 @@
     top: -3px;
     width: calc(100% + 4px);
     height: calc(100% + 6px);
-    background: rgba(255, 255, 255, 0.4);
+    background: rgba(168, 15, 15, 0.4);
     transform: scaleX(0.3);
     transform-origin: 0 50%;
     transition: transform 0.3s;
@@ -170,7 +186,7 @@
     top: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.1);
+    /* background: rgba(0, 0, 0, 0.1); */
   }
   .slider__slide-part {
     position: relative;
