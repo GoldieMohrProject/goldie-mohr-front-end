@@ -7,7 +7,7 @@ class Contact extends React.Component {
     sendEmail(e) {
         e.preventDefault();
 
-        emailjs.sendForm('service_59tkng9', 'template_3i27x59', e.target, 'user_znYxcuxXFuqUmoJFIoGRN')
+        emailjs.sendForm('service_t6mnuh8', 'template_z4bnqkw', e.target, 'user_Hi3CHtCVBXjXFcUBPQsos')
             .then((result) => {
                 console.log(result.text);
             }, (error) => {
