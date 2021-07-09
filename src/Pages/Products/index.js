@@ -11,10 +11,9 @@ function Product() {
 
         <>
 
-            <div id="products">
-                <h2 id="productTitle">PRODUCTS</h2>
+            <div id="bannerImage">
+                <h2 id="bannerTitle">PRODUCTS</h2>
             </div>
-
 
             <div className="container ">
                 <div style={{ marginBottom: "40px", marginTop: "40px" }}>
@@ -25,7 +24,7 @@ function Product() {
                                 <h5 className="card-title" style={{ textAlign: "center", margin: "5%" }}>AGGREGATES</h5>
                                 <p className="card-text">An array of beautifully-coloured river stone in a variety of sizes has now been made available by Goldie Mohr Ltd and Dwyer Pit.
 
-</p>
+                                </p>
                             </div>
                         </div>
                         <div className="card col-12 col-lg-5 col-xl-5 col-md-5 m-3" style={{ width: "24rem", borderTop: "5px solid #3178C6", borderRadius: "0px" }}>

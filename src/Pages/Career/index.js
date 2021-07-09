@@ -8,8 +8,8 @@ import { Link } from "react-router-dom";
 function Career() {
     return (
         <>
-            <div id="careerImage">
-                <h2 id="careerTitle">CAREERS</h2>
+            <div id="bannerImage">
+                <h2 id="bannerTitle">CAREERS</h2>
             </div>
             <div className="container">
                 <div style={{ marginBottom: "40px", marginTop: "40px" }}>

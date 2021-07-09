@@ -26,8 +26,8 @@ class Contact extends React.Component {
                 {/* <section className="banner_area" data-stellar-background-ratio="0.5"> */}
                   
 
-                    <div id="ContactImage">
-                <h2 id="ContactTitle">CONTACT US</h2>
+                <div id="bannerImage">
+                <h2 id="bannerTitle">CONTACT US</h2>
             </div>
 
                 {/* </section> */}

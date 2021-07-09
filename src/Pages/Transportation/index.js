@@ -94,12 +94,11 @@ function Transportation() {
   return (
     <>
 
-     
 
-      <div id="backgroundBanner">
-        <h2 id="titleBanner">TRANSPORTATION</h2>
+
+      <div id="bannerImage">
+        <h2 id="bannerTitle">TRANSPORTATION</h2>
       </div>
-
 
 
 
@@ -115,18 +114,18 @@ function Transportation() {
 
 
                 <ul class="row painting">
-                 
-                  
-                    <li><a style={{textAlign:"center"}} className="nounderline"><i class="fa fa-truck" aria-hidden="true"></i>Transportation</a></li>
-                
-                
+
+
+                  <li><a style={{ textAlign: "center" }} className="nounderline"><i class="fa fa-truck" aria-hidden="true"></i>Transportation</a></li>
+
+
                 </ul>
               </div>
-             
+
 
               <div className="row">
 
-        
+
 
                 <div className="row">
 
@@ -146,7 +145,7 @@ function Transportation() {
                     <ul class="list-group list-group-horizontal">
                       <li className="fas fa-square fa-1x decoration"></li>
 
-                   <li style={{ marginLeft: "5%", color:"black" }}>
+                      <li style={{ marginLeft: "5%", color: "black" }}>
 
                         TRACTORS
 
@@ -159,7 +158,7 @@ function Transportation() {
                     <ul class="list-group list-group-horizontal">
                       <li className="fas fa-square fa-1x decoration"></li>
 
-                   <li style={{ marginLeft: "5%", color:"black" }}>
+                      <li style={{ marginLeft: "5%", color: "black" }}>
 
                         TRAILERS
 
@@ -172,7 +171,7 @@ function Transportation() {
                     <ul class="list-group list-group-horizontal">
                       <li className="fas fa-square fa-1x decoration"></li>
 
-                   <li style={{ marginLeft: "5%", color:"black" }}>
+                      <li style={{ marginLeft: "5%", color: "black" }}>
 
                         ROAD BUILD
 
@@ -185,7 +184,7 @@ function Transportation() {
                     <ul class="list-group list-group-horizontal">
                       <li className="fas fa-square fa-1x decoration"></li>
 
-                   <li style={{ marginLeft: "5%", color:"black" }}>
+                      <li style={{ marginLeft: "5%", color: "black" }}>
 
                         TANK TRAILERS
 
@@ -198,7 +197,7 @@ function Transportation() {
                     <ul class="list-group list-group-horizontal">
                       <li className="fas fa-square fa-1x decoration"></li>
 
-                   <li style={{ marginLeft: "5%", color:"black" }}>
+                      <li style={{ marginLeft: "5%", color: "black" }}>
 
                         TRI-AXLE
 

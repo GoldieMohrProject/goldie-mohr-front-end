@@ -45,10 +45,9 @@ function About() {
   return (
     <>
       
-      <div id="AboutImage">
-                <h2 id="AboutTitle">ABOUT US</h2>
+      <div id="bannerImage">
+                <h2 id="bannerTitle">ABOUT US</h2>
             </div>
-
       {/* <hr className="titleline"></hr> */}
 
       <section className="about_us_area about_us_2 row">

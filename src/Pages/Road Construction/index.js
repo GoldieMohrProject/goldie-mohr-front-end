@@ -109,10 +109,9 @@ function RoadConstruction() {
 
 
 
-      <div id="backgroundBanner">
-        <h2 id="titleBanner">ROAD CONSTRUCTION</h2>
+      <div id="bannerImage">
+        <h2 id="bannerTitle">ROAD CONSTRUCTION</h2>
       </div>
-
 
 
 
@@ -129,13 +128,13 @@ function RoadConstruction() {
 
                 <ul class="row painting">
                   <div className=" col " >
-                    <li ><a style={{textAlign:"center"}} className="nounderline"><i class="fas fa-building" aria-hidden="true"></i>Road Construction</a></li>
+                    <li ><a style={{ textAlign: "center" }} className="nounderline"><i class="fas fa-building" aria-hidden="true"></i>Road Construction</a></li>
                   </div>
                 </ul>
               </div>
               <div className="row">
 
-     
+
 
                 <div className="row">
                   {/* <div className="col-1"></div> */}
@@ -156,7 +155,7 @@ function RoadConstruction() {
                     <ul class="list-group list-group-horizontal">
                       <li className="fas fa-square fa-1x decoration"></li>
 
-                   <li style={{ marginLeft: "5%", color:"black" }}>
+                      <li style={{ marginLeft: "5%", color: "black" }}>
 
 
                         GRAVEL
@@ -171,7 +170,7 @@ function RoadConstruction() {
                     <ul class="list-group list-group-horizontal">
                       <li className="fas fa-square fa-1x decoration"></li>
 
-                      <li style={{ marginLeft: "5%", color:"black" }}>
+                      <li style={{ marginLeft: "5%", color: "black" }}>
 
 
                         GRADING
@@ -187,7 +186,7 @@ function RoadConstruction() {
                     <ul class="list-group list-group-horizontal">
                       <li className="fas fa-square fa-1x decoration"></li>
 
-                   <li style={{ marginLeft: "5%", color:"black" }}>
+                      <li style={{ marginLeft: "5%", color: "black" }}>
 
 
                         ROAD BUILD
@@ -202,7 +201,7 @@ function RoadConstruction() {
                     <ul class="list-group list-group-horizontal">
                       <li className="fas fa-square fa-1x decoration"></li>
 
-                   <li style={{ marginLeft: "5%", color:"black" }}>
+                      <li style={{ marginLeft: "5%", color: "black" }}>
 
 
                         ASPHALT MAINTANENCE
@@ -217,7 +216,7 @@ function RoadConstruction() {
                     <ul class="list-group list-group-horizontal">
                       <li className="fas fa-square fa-1x decoration"></li>
 
-                   <li style={{ marginLeft: "5%", color:"black" }}>
+                      <li style={{ marginLeft: "5%", color: "black" }}>
 
                         PARKING LOT
 

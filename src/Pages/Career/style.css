@@ -1,16 +1,15 @@
-#careerImage {
-  background-image: url("https://user-images.githubusercontent.com/71358869/123183768-3ff67f00-d460-11eb-9128-4d8b654d2231.jpg");
-  background-position: center;
+#bannerImage {
+  background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  height: 300px;
+  height: 400px;
   /* height: 100vh; */
   width: auto;
   box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   z-index: 1;
 }
-#careerImage:after {
+#bannerImage:after {
   content: "";
   position: absolute;
   top: 0;
@@ -24,7 +23,7 @@
 }
 
 
-#careerTitle {
+#bannerTitle {
   color: white;
   font-weight: bold;
   letter-spacing: 3px;
@@ -36,13 +35,20 @@
   transform: translate(-50%, -50%);
 }
 @media only screen and (max-width: 800px) {
-  #careerTitle {
-    font-size: 30px;
+  #bannerImage{
+    background-image: url("https://user-images.githubusercontent.com/71358869/125015446-81308680-e03d-11eb-9965-797953e4fc8d.png");
+
+  }
+  #bannerTitle {
+    font-size: 40px;
   }
 }
 @media only screen and (min-width: 800px) {
-  #careerTitle {
-    font-size: 55px;
+  #bannerImage{
+    background-image: url("https://user-images.githubusercontent.com/71358869/125015218-0ebfa680-e03d-11eb-8243-1a212de7771d.png");
+  }
+  #bannerTitle {
+    font-size: 70px;
   }
 }
 

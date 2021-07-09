@@ -35,10 +35,9 @@ function WinterMaintenance() {
 
 
 
-      <div id="backgroundBanner">
-        <h2 id="titleBanner">WINTER MAINTENANCE</h2>
+      <div id="bannerImage">
+        <h2 id="bannerTitle">WINTER MAINTENANCE</h2>
       </div>
-
 
 
 
@@ -54,16 +53,16 @@ function WinterMaintenance() {
 
 
                 <ul class="row painting">
-                 
-                    <li><a style={{textAlign:"center"}} className="nounderline"><i class="fa fa-road" aria-hidden="true"></i>Winter Maintenance</a></li>
-               
+
+                  <li><a style={{ textAlign: "center" }} className="nounderline"><i class="fa fa-road" aria-hidden="true"></i>Winter Maintenance</a></li>
+
 
                 </ul>
               </div>
 
               <div className="row">
 
-              
+
 
                 <div className="row">
 
@@ -84,7 +83,7 @@ function WinterMaintenance() {
                     <ul class="list-group list-group-horizontal">
                       <li className="fas fa-square fa-1x decoration"></li>
 
-                   <li style={{ marginLeft: "5%", color:"black" }}>
+                      <li style={{ marginLeft: "5%", color: "black" }}>
 
                         TRACTORS
 
@@ -97,7 +96,7 @@ function WinterMaintenance() {
                     <ul class="list-group list-group-horizontal">
                       <li className="fas fa-square fa-1x decoration"></li>
 
-                   <li style={{ marginLeft: "5%", color:"black" }}>
+                      <li style={{ marginLeft: "5%", color: "black" }}>
 
                         REMOVING SNOW
 
@@ -110,7 +109,7 @@ function WinterMaintenance() {
                     <ul class="list-group list-group-horizontal">
                       <li className="fas fa-square fa-1x decoration"></li>
 
-                   <li style={{ marginLeft: "5%", color:"black" }}>
+                      <li style={{ marginLeft: "5%", color: "black" }}>
 
                         CLEANING SIDEWALKS
 
@@ -123,7 +122,7 @@ function WinterMaintenance() {
                     <ul class="list-group list-group-horizontal">
                       <li className="fas fa-square fa-1x decoration"></li>
 
-                   <li style={{ marginLeft: "5%", color:"black" }}>
+                      <li style={{ marginLeft: "5%", color: "black" }}>
 
                         DE-ICING
 

@@ -43,11 +43,9 @@ function EquipmentRental() {
 
 
 
-      <div id="backgroundBanner">
-        <h2 id="titleBanner">EQUIPMENT RENTAL</h2>
+      <div id="bannerImage">
+        <h2 id="bannerTitle">EQUIPMENT RENTAL</h2>
       </div>
-
-
 
 
       <section className="building_construction_area">
@@ -62,16 +60,16 @@ function EquipmentRental() {
 
 
                 <ul class="row painting">
-                
-                    <li><a style={{textAlign:"center"}} className="nounderline"><i class="fas fa-tools" aria-hidden="true"></i>Heavy Equipment Rental</a></li>
-                  
+
+                  <li><a style={{ textAlign: "center" }} className="nounderline"><i class="fas fa-tools" aria-hidden="true"></i>Heavy Equipment Rental</a></li>
+
                 </ul>
               </div>
 
 
               <div className="row">
 
-         
+
 
                 <div className="row">
 
@@ -90,7 +88,7 @@ function EquipmentRental() {
                     <ul class="list-group list-group-horizontal">
                       <li className="fas fa-square fa-1x decoration"></li>
 
-                   <li style={{ marginLeft: "5%", color:"black" }}>
+                      <li style={{ marginLeft: "5%", color: "black" }}>
 
                         TRACTORS
 
@@ -103,7 +101,7 @@ function EquipmentRental() {
                     <ul class="list-group list-group-horizontal">
                       <li className="fas fa-square fa-1x decoration"></li>
 
-                   <li style={{ marginLeft: "5%", color:"black" }}>
+                      <li style={{ marginLeft: "5%", color: "black" }}>
 
                         GRADER
 
@@ -116,7 +114,7 @@ function EquipmentRental() {
                     <ul class="list-group list-group-horizontal">
                       <li className="fas fa-square fa-1x decoration"></li>
 
-                   <li style={{ marginLeft: "5%", color:"black" }}>
+                      <li style={{ marginLeft: "5%", color: "black" }}>
 
                         TRUCK
 
@@ -129,7 +127,7 @@ function EquipmentRental() {
                     <ul class="list-group list-group-horizontal">
                       <li className="fas fa-square fa-1x decoration"></li>
 
-                   <li style={{ marginLeft: "5%", color:"black" }}>
+                      <li style={{ marginLeft: "5%", color: "black" }}>
 
                         EXCAVATORS
 
