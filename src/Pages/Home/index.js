@@ -5,66 +5,69 @@ import VisibilitySensor from 'react-visibility-sensor';
 import Slider from '../../Components/Slider'
 import './style.css'
 
+
+import Pdf from '../Home/NCHCA-Safety.pdf';
+
 const slides = [
     {
-      city: '',
-      country: '',
-      img: 'https://user-images.githubusercontent.com/77207167/123183480-a16a1e00-d45f-11eb-879b-d999a8593f4d.JPG',
+        city: '',
+        country: '',
+        img: 'https://user-images.githubusercontent.com/77207167/123183480-a16a1e00-d45f-11eb-879b-d999a8593f4d.JPG',
     },
     {
-      city: '',
-      img: 'https://user-images.githubusercontent.com/77207167/123183540-bd6dbf80-d45f-11eb-842c-9d3d4a082f89.JPG',
+        city: '',
+        img: 'https://user-images.githubusercontent.com/77207167/123183540-bd6dbf80-d45f-11eb-842c-9d3d4a082f89.JPG',
     },
     {
-      city: '',
-      country: '',
-      img: 'https://user-images.githubusercontent.com/77207167/123183548-bfd01980-d45f-11eb-8149-047555498fbf.jpg',
+        city: '',
+        country: '',
+        img: 'https://user-images.githubusercontent.com/77207167/123183548-bfd01980-d45f-11eb-8149-047555498fbf.jpg',
     },
     {
-      city: '',
-      country: '',
-      img: 'https://user-images.githubusercontent.com/77207167/123183553-c199dd00-d45f-11eb-946f-f357526d7632.jpg',
+        city: '',
+        country: '',
+        img: 'https://user-images.githubusercontent.com/77207167/123183553-c199dd00-d45f-11eb-946f-f357526d7632.jpg',
     }
-  ];
-  
+];
+
 function Home() {
     return (
         <Wrapper>
             <Slider slides={slides} />
-         
-                <section class="row professional_builder backgroounnd"  >
-                    <div class="container">
-                        <div class="row builder_all">
-                            <div class="tittle" style={{ marginBottom: '5%' }}>
-                                <h2>About Us</h2>
-                                <h1 style={{ marginTop: "5%" }}>PROVIDING MOHR VALUE </h1>
-                                <h1>SINCE 1960</h1>
-                            </div>
-                            <div class="col-md-3 col-sm-6 builder">
-                                <i class="fa fa-home" aria-hidden="true"></i>
-                                <h4>Professional Build</h4>
-                                <p>We provide the finest build quality to ensure our customers' satisfaction</p>
-                            </div>
-                            <div class="col-md-3 col-sm-6 builder">
-                                <i class="fa fa-building" aria-hidden="true"></i>
-                                <h4>We Deliver Quality</h4>
-                                <p>We value your satisfaction and will work hard to surpass your expectations</p>
-                            </div>
-                            <div class="col-md-3 col-sm-6 builder">
-                                <i class="fa fa-clock" aria-hidden="true"></i>
-                                <h4>Always On Time</h4>
-                                <p>Punctuality is of upmost importance when it comes to our workflow</p>
-                            </div>
-                            <div class="col-md-3 col-sm-6 builder">
-                                <i class="fa fa-thumbs-up" aria-hidden="true"></i>
-                                <h4>We Are Passionate</h4>
-                                <p>We will work tirelessly to complete projects demanded by our customers</p>
-                            </div>
 
+            <section class="row professional_builder backgroounnd"  >
+                <div class="container">
+                    <div class="row builder_all">
+                        <div class="tittle" style={{ marginBottom: '5%' }}>
+                            <h2>About Us</h2>
+                            <h1 style={{ marginTop: "5%" }}>PROVIDING MOHR VALUE </h1>
+                            <h1>SINCE 1960</h1>
                         </div>
+                        <div class="col-md-3 col-sm-6 builder">
+                            <i class="fa fa-home" aria-hidden="true"></i>
+                            <h4>Professional Build</h4>
+                            <p>We provide the finest build quality to ensure our customers' satisfaction</p>
+                        </div>
+                        <div class="col-md-3 col-sm-6 builder">
+                            <i class="fa fa-building" aria-hidden="true"></i>
+                            <h4>We Deliver Quality</h4>
+                            <p>We value your satisfaction and will work hard to surpass your expectations</p>
+                        </div>
+                        <div class="col-md-3 col-sm-6 builder">
+                            <i class="fa fa-clock" aria-hidden="true"></i>
+                            <h4>Always On Time</h4>
+                            <p>Punctuality is of upmost importance when it comes to our workflow</p>
+                        </div>
+                        <div class="col-md-3 col-sm-6 builder">
+                            <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+                            <h4>We Are Passionate</h4>
+                            <p>We will work tirelessly to complete projects demanded by our customers</p>
+                        </div>
+
                     </div>
-                </section>
-   
+                </div>
+            </section>
+
 
 
             <section class="our_feature_area">
@@ -91,7 +94,7 @@ function Home() {
                                         </CountUp>
                                         <h6>PROJECT COMPLETED</h6>
                                     </div>
-                                   
+
                                     <div class="col-md-6 col-sm-6 p0 completed rightPad">
                                         <i class="fa fa-child" aria-hidden="true"></i>
                                         <CountUp end={50} redraw={true}>
@@ -103,8 +106,20 @@ function Home() {
                                         </CountUp>
                                         <h6>WORKERS EMPLOYED</h6>
                                     </div>
-                        
+
                                 </div>
+                                <div class="tittle wow fadeInUp" >
+
+         
+                                <h2 style={{ color: "white" }}>June 2021 Safety Award Winners – Stephen Rumleskie And Quinn Cunnane Of Goldie Mohr Ltd.</h2>
+
+                                </div>
+                                <a style={{ color: "white" }} target="_blank" rel="noreferrer" href={Pdf}>
+                                    {/* <img src="/static/media/resume-btn2.cda0440f.png" alt="my resume"/> */}
+                                    <h5 style={{ color: "white", marginTop: "10%" }}>National Capital Heavy Construction Association - NCHCA </h5>
+
+                                
+                                </a>
                             </section>
 
 
@@ -116,7 +131,7 @@ function Home() {
                                 <div class="subtittle" style={{ marginTop: '3%' }}>
                                     <h3>WHY CHOOSE US</h3>
                                     <h6>Aside from our amazing staff,we take the time and care to make sure even the tiniest
-                                         detail is managed, in every circumstance.</h6>
+                                        detail is managed, in every circumstance.</h6>
                                 </div>
                                 <div class="media">
                                     <div class="media-left">
@@ -164,19 +179,19 @@ function Home() {
                     <h2 >Safety</h2>
                     <div style={{ paddingLeft: '10%', paddingRight: '10%', marginTop: '5%', marginBottom: "4%", textTransform: 'none', color: 'white' }}>
                         <strong> As a member of the W.S.I.B Excellence Program,
-                        Goldie Mohr Ltd. is able to reduce workplace
-                        injuries and ensure safety at all job sites. The
-                        main focus of the Goldie Mohr Ltd health safety
-                        and environment department is creating an
-                        inclusive culture and safest environment
-                        possible, for all stakeholders (the public,
-                        employees, sub-contractors and customers) by
-                        maintaining the policies and standards
-                        influenced by W.S.I.B. and I.H.S.A. Accident
-                        prevention is what Goldie Mohr Ltd. strives for
-                        through this program. Our team is committed to
-                        achieving the Ontario Certificate or Recognition
-                        – COR.</strong> </div>
+                            Goldie Mohr Ltd. is able to reduce workplace
+                            injuries and ensure safety at all job sites. The
+                            main focus of the Goldie Mohr Ltd health safety
+                            and environment department is creating an
+                            inclusive culture and safest environment
+                            possible, for all stakeholders (the public,
+                            employees, sub-contractors and customers) by
+                            maintaining the policies and standards
+                            influenced by W.S.I.B. and I.H.S.A. Accident
+                            prevention is what Goldie Mohr Ltd. strives for
+                            through this program. Our team is committed to
+                            achieving the Ontario Certificate or Recognition
+                            – COR.</strong> </div>
                 </div>
             </section>
 
